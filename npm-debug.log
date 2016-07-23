@@ -1,0 +1,2577 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'graphiql' ]
+2 info using npm@2.14.20
+3 info using node@v4.4.0
+4 verbose install initial load of E:\Project\heroku\scriptsweat-graph\package.json
+5 warn package.json scriptsweat-graph@1.0.0 No README data
+6 verbose installManyTop reading scoped package data from E:\Project\heroku\scriptsweat-graph\node_modules\async\package.json
+7 verbose installManyTop reading scoped package data from E:\Project\heroku\scriptsweat-graph\node_modules\express\package.json
+8 verbose installManyTop reading scoped package data from E:\Project\heroku\scriptsweat-graph\node_modules\express-graphql\package.json
+9 verbose installManyTop reading scoped package data from E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\package.json
+10 verbose installManyTop reading scoped package data from E:\Project\heroku\scriptsweat-graph\node_modules\graphql\package.json
+11 verbose installManyTop reading scoped package data from E:\Project\heroku\scriptsweat-graph\node_modules\lodash\package.json
+12 verbose installManyTop reading scoped package data from E:\Project\heroku\scriptsweat-graph\node_modules\mongoose\package.json
+13 verbose installManyTop reading scoped package data from E:\Project\heroku\scriptsweat-graph\node_modules\react\package.json
+14 verbose installManyTop reading scoped package data from E:\Project\heroku\scriptsweat-graph\node_modules\react-dom\package.json
+15 verbose installManyTop reading scoped package data from E:\Project\heroku\scriptsweat-graph\node_modules\request\package.json
+16 verbose readDependencies loading dependencies from E:\Project\heroku\scriptsweat-graph\package.json
+17 verbose install graphiql is installed as 0.7.2
+18 silly cache add args [ 'graphiql', null ]
+19 verbose cache add spec graphiql
+20 silly cache add parsed spec Result {
+20 silly cache add   raw: 'graphiql',
+20 silly cache add   scope: null,
+20 silly cache add   name: 'graphiql',
+20 silly cache add   rawSpec: '',
+20 silly cache add   spec: 'latest',
+20 silly cache add   type: 'tag' }
+21 silly addNamed graphiql@latest
+22 verbose addNamed "latest" is being treated as a dist-tag for graphiql
+23 info addNameTag [ 'graphiql', 'latest' ]
+24 silly mapToRegistry name graphiql
+25 silly mapToRegistry using default registry
+26 silly mapToRegistry registry https://registry.npmjs.org/
+27 silly mapToRegistry uri https://registry.npmjs.org/graphiql
+28 verbose addNameTag registry:https://registry.npmjs.org/graphiql not in flight; fetching
+29 verbose request uri https://registry.npmjs.org/graphiql
+30 verbose request no auth needed
+31 info attempt registry request try #1 at 2:31:43 PM
+32 verbose request id b906345ef11b20b9
+33 verbose etag "3OE52CPCXCFYXCA4WPRFWZ45N"
+34 http request GET https://registry.npmjs.org/graphiql
+35 http 200 https://registry.npmjs.org/graphiql
+36 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+36 verbose headers   etag: '"478UNQRTLSY4XAVYIJJEX8BGY"',
+36 verbose headers   'content-type': 'application/json',
+36 verbose headers   'content-encoding': 'gzip',
+36 verbose headers   'cache-control': 'max-age=300',
+36 verbose headers   'content-length': '10928',
+36 verbose headers   'accept-ranges': 'bytes',
+36 verbose headers   date: 'Fri, 22 Jul 2016 07:31:39 GMT',
+36 verbose headers   via: '1.1 varnish',
+36 verbose headers   age: '0',
+36 verbose headers   connection: 'keep-alive',
+36 verbose headers   'x-served-by': 'cache-sin6924-SIN',
+36 verbose headers   'x-cache': 'MISS',
+36 verbose headers   'x-cache-hits': '0',
+36 verbose headers   'x-timer': 'S1469172698.926950,VS0,VE239',
+36 verbose headers   vary: 'Accept-Encoding' }
+37 silly get cb [ 200,
+37 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+37 silly get     etag: '"478UNQRTLSY4XAVYIJJEX8BGY"',
+37 silly get     'content-type': 'application/json',
+37 silly get     'content-encoding': 'gzip',
+37 silly get     'cache-control': 'max-age=300',
+37 silly get     'content-length': '10928',
+37 silly get     'accept-ranges': 'bytes',
+37 silly get     date: 'Fri, 22 Jul 2016 07:31:39 GMT',
+37 silly get     via: '1.1 varnish',
+37 silly get     age: '0',
+37 silly get     connection: 'keep-alive',
+37 silly get     'x-served-by': 'cache-sin6924-SIN',
+37 silly get     'x-cache': 'MISS',
+37 silly get     'x-cache-hits': '0',
+37 silly get     'x-timer': 'S1469172698.926950,VS0,VE239',
+37 silly get     vary: 'Accept-Encoding' } ]
+38 verbose get saving graphiql to C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\registry.npmjs.org\graphiql\.cache.json
+39 verbose correctMkdir C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+40 silly addNameTag next cb for graphiql with tag latest
+41 silly addNamed graphiql@0.7.3
+42 verbose addNamed "0.7.3" is a plain semver version for graphiql
+43 silly mapToRegistry name graphiql
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry uri https://registry.npmjs.org/graphiql
+47 verbose addRemoteTarball https://registry.npmjs.org/graphiql/-/graphiql-0.7.3.tgz not in flight; adding
+48 verbose addRemoteTarball [ 'https://registry.npmjs.org/graphiql/-/graphiql-0.7.3.tgz',
+48 verbose addRemoteTarball   'afddfc2daed0b6a5998678579c27ed3dfbeb82df' ]
+49 info retry fetch attempt 1 at 2:31:46 PM
+50 info attempt registry request try #1 at 2:31:46 PM
+51 http fetch GET https://registry.npmjs.org/graphiql/-/graphiql-0.7.3.tgz
+52 http fetch 200 https://registry.npmjs.org/graphiql/-/graphiql-0.7.3.tgz
+53 silly fetchAndShaCheck shasum afddfc2daed0b6a5998678579c27ed3dfbeb82df
+54 verbose addTmpTarball C:\Users\HENRAS~1\AppData\Local\Temp\npm-5792-d559ec71\registry.npmjs.org\graphiql\-\graphiql-0.7.3.tgz not in flight; adding
+55 verbose addTmpTarball already have metadata; skipping unpack for graphiql@0.7.3
+56 verbose correctMkdir C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+57 silly cache afterAdd graphiql@0.7.3
+58 verbose afterAdd C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\graphiql\0.7.3\package\package.json not in flight; writing
+59 verbose correctMkdir C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+60 verbose afterAdd C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\graphiql\0.7.3\package\package.json written
+61 silly install resolved [ { name: 'graphiql',
+61 silly install resolved     version: '0.7.3',
+61 silly install resolved     description: 'An graphical interactive in-browser GraphQL IDE.',
+61 silly install resolved     contributors: [ [Object], [Object] ],
+61 silly install resolved     homepage: 'https://github.com/graphql/graphiql',
+61 silly install resolved     bugs: { url: 'https://github.com/graphql/graphiql/issues' },
+61 silly install resolved     repository:
+61 silly install resolved      { type: 'git',
+61 silly install resolved        url: 'git+ssh://git@github.com/graphql/graphiql.git' },
+61 silly install resolved     license: 'SEE LICENSE IN LICENSE',
+61 silly install resolved     main: 'dist/index.js',
+61 silly install resolved     files:
+61 silly install resolved      [ 'dist',
+61 silly install resolved        'graphiql.js',
+61 silly install resolved        'graphiql.min.js',
+61 silly install resolved        'graphiql.css',
+61 silly install resolved        'README.md',
+61 silly install resolved        'LICENSE' ],
+61 silly install resolved     'browserify-shim': { react: 'global:React', 'react-dom': 'global:ReactDOM' },
+61 silly install resolved     options: { mocha: '--full-trace --require resources/mocha-bootload src/**/*-test.js' },
+61 silly install resolved     scripts:
+61 silly install resolved      { test: 'npm run lint && npm run check && npm run testonly',
+61 silly install resolved        testonly: 'babel-node ./node_modules/.bin/_mocha $npm_package_options_mocha',
+61 silly install resolved        lint: 'eslint src',
+61 silly install resolved        check: 'flow check',
+61 silly install resolved        build: '. ./resources/build.sh',
+61 silly install resolved        preversion: '. ./resources/checkgit.sh && npm test',
+61 silly install resolved        prepublish: '. ./resources/prepublish.sh' },
+61 silly install resolved     dependencies:
+61 silly install resolved      { codemirror: '^5.15.2',
+61 silly install resolved        'codemirror-graphql': '^0.5.2',
+61 silly install resolved        marked: '^0.3.5' },
+61 silly install resolved     peerDependencies: { graphql: '^0.6.0', react: '^15.0.1', 'react-dom': '^15.0.1' },
+61 silly install resolved     devDependencies:
+61 silly install resolved      { 'babel-cli': '6.6.5',
+61 silly install resolved        'babel-eslint': '6.0.4',
+61 silly install resolved        'babel-plugin-syntax-async-functions': '6.5.0',
+61 silly install resolved        'babel-plugin-transform-class-properties': '^6.6.0',
+61 silly install resolved        'babel-plugin-transform-object-rest-spread': '6.6.5',
+61 silly install resolved        'babel-preset-es2015': '6.6.0',
+61 silly install resolved        'babel-preset-react': '6.5.0',
+61 silly install resolved        browserify: '13.0.0',
+61 silly install resolved        'browserify-shim': '3.8.12',
+61 silly install resolved        chai: '3.5.0',
+61 silly install resolved        'chai-subset': '1.2.2',
+61 silly install resolved        eslint: '2.7.0',
+61 silly install resolved        'eslint-plugin-babel': '3.2.0',
+61 silly install resolved        'eslint-plugin-react': '4.3.0',
+61 silly install resolved        'flow-bin': '0.22.1',
+61 silly install resolved        graphql: '0.6.0',
+61 silly install resolved        jsdom: '8.3.0',
+61 silly install resolved        mocha: '2.4.5',
+61 silly install resolved        react: '15.0.1',
+61 silly install resolved        'react-addons-test-utils': '15.0.1',
+61 silly install resolved        'react-dom': '15.0.1',
+61 silly install resolved        'uglify-js': '^2.4.24',
+61 silly install resolved        uglifyify: '^3.0.1' },
+61 silly install resolved     gitHead: '5fbae37b0cd9c7e6e80d76263f5aff7a5867cb78',
+61 silly install resolved     _id: 'graphiql@0.7.3',
+61 silly install resolved     _shasum: 'afddfc2daed0b6a5998678579c27ed3dfbeb82df',
+61 silly install resolved     _from: 'graphiql@latest',
+61 silly install resolved     _npmVersion: '3.9.5',
+61 silly install resolved     _nodeVersion: '6.2.2',
+61 silly install resolved     _npmUser: { name: 'leebyron', email: 'lee@leebyron.com' },
+61 silly install resolved     dist:
+61 silly install resolved      { shasum: 'afddfc2daed0b6a5998678579c27ed3dfbeb82df',
+61 silly install resolved        tarball: 'https://registry.npmjs.org/graphiql/-/graphiql-0.7.3.tgz' },
+61 silly install resolved     maintainers: [ [Object] ],
+61 silly install resolved     _npmOperationalInternal:
+61 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+61 silly install resolved        tmp: 'tmp/graphiql-0.7.3.tgz_1466756044745_0.07034698338247836' },
+61 silly install resolved     directories: {},
+61 silly install resolved     _resolved: 'https://registry.npmjs.org/graphiql/-/graphiql-0.7.3.tgz' } ]
+62 info install graphiql@0.7.3 into E:\Project\heroku\scriptsweat-graph
+63 info installOne graphiql@0.7.3
+64 verbose installOne of graphiql to E:\Project\heroku\scriptsweat-graph not in flight; installing
+65 verbose correctMkdir C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+66 verbose lock using C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\_locks\graphiql-3fa7e4c66073ad48.lock for E:\Project\heroku\scriptsweat-graph\node_modules\graphiql
+67 silly install write writing graphiql 0.7.3 to E:\Project\heroku\scriptsweat-graph\node_modules\graphiql
+68 verbose unbuild node_modules\graphiql
+69 info preuninstall graphiql@0.7.2
+70 info uninstall graphiql@0.7.2
+71 verbose unbuild rmStuff graphiql@0.7.2 from E:\Project\heroku\scriptsweat-graph\node_modules
+72 info postuninstall graphiql@0.7.2
+73 silly gentlyRm E:\Project\heroku\scriptsweat-graph\node_modules\graphiql is being purged from base E:\Project\heroku\scriptsweat-graph
+74 verbose gentlyRm don't care about contents; nuking E:\Project\heroku\scriptsweat-graph\node_modules\graphiql
+75 silly vacuum-fs purging E:\Project\heroku\scriptsweat-graph\node_modules\graphiql
+76 silly vacuum-fs quitting because other entries in E:\Project\heroku\scriptsweat-graph\node_modules
+77 verbose tar unpack C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\graphiql\0.7.3\package.tgz
+78 verbose tar unpacking to E:\Project\heroku\scriptsweat-graph\node_modules\graphiql
+79 silly gentlyRm E:\Project\heroku\scriptsweat-graph\node_modules\graphiql is being purged
+80 verbose gentlyRm don't care about contents; nuking E:\Project\heroku\scriptsweat-graph\node_modules\graphiql
+81 silly gunzTarPerm modes [ '777', '666' ]
+82 silly gunzTarPerm extractEntry package.json
+83 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+84 silly gunzTarPerm extractEntry LICENSE
+85 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
+86 silly gunzTarPerm extractEntry graphiql.js
+87 silly gunzTarPerm modified mode [ 'graphiql.js', 436, 438 ]
+88 silly gunzTarPerm extractEntry graphiql.min.js
+89 silly gunzTarPerm modified mode [ 'graphiql.min.js', 436, 438 ]
+90 silly gunzTarPerm extractEntry dist/index.js
+91 silly gunzTarPerm modified mode [ 'dist/index.js', 436, 438 ]
+92 silly gunzTarPerm extractEntry dist/components/DocExplorer.js
+93 silly gunzTarPerm modified mode [ 'dist/components/DocExplorer.js', 436, 438 ]
+94 silly gunzTarPerm extractEntry dist/components/ExecuteButton.js
+95 silly gunzTarPerm modified mode [ 'dist/components/ExecuteButton.js', 436, 438 ]
+96 silly gunzTarPerm extractEntry dist/components/GraphiQL.js
+97 silly gunzTarPerm modified mode [ 'dist/components/GraphiQL.js', 436, 438 ]
+98 silly gunzTarPerm extractEntry dist/components/QueryEditor.js
+99 silly gunzTarPerm modified mode [ 'dist/components/QueryEditor.js', 436, 438 ]
+100 silly gunzTarPerm extractEntry dist/components/ResultViewer.js
+101 silly gunzTarPerm modified mode [ 'dist/components/ResultViewer.js', 436, 438 ]
+102 silly gunzTarPerm extractEntry dist/components/ToolbarButton.js
+103 silly gunzTarPerm modified mode [ 'dist/components/ToolbarButton.js', 436, 438 ]
+104 silly gunzTarPerm extractEntry dist/components/VariableEditor.js
+105 silly gunzTarPerm modified mode [ 'dist/components/VariableEditor.js', 436, 438 ]
+106 silly gunzTarPerm extractEntry dist/utility/CodeMirrorSizer.js
+107 silly gunzTarPerm modified mode [ 'dist/utility/CodeMirrorSizer.js', 436, 438 ]
+108 silly gunzTarPerm extractEntry dist/utility/debounce.js
+109 silly gunzTarPerm modified mode [ 'dist/utility/debounce.js', 436, 438 ]
+110 silly gunzTarPerm extractEntry dist/utility/elementPosition.js
+111 silly gunzTarPerm modified mode [ 'dist/utility/elementPosition.js', 436, 438 ]
+112 silly gunzTarPerm extractEntry dist/utility/fillLeafs.js
+113 silly gunzTarPerm modified mode [ 'dist/utility/fillLeafs.js', 436, 438 ]
+114 silly gunzTarPerm extractEntry dist/utility/find.js
+115 silly gunzTarPerm modified mode [ 'dist/utility/find.js', 436, 438 ]
+116 silly gunzTarPerm extractEntry dist/utility/getQueryFacts.js
+117 silly gunzTarPerm modified mode [ 'dist/utility/getQueryFacts.js', 436, 438 ]
+118 silly gunzTarPerm extractEntry dist/utility/getSelectedOperationName.js
+119 silly gunzTarPerm modified mode [ 'dist/utility/getSelectedOperationName.js', 436, 438 ]
+120 silly gunzTarPerm extractEntry dist/utility/introspectionQueries.js
+121 silly gunzTarPerm modified mode [ 'dist/utility/introspectionQueries.js', 436, 438 ]
+122 silly gunzTarPerm extractEntry dist/utility/onHasCompletion.js
+123 silly gunzTarPerm modified mode [ 'dist/utility/onHasCompletion.js', 436, 438 ]
+124 silly gunzTarPerm extractEntry graphiql.css
+125 silly gunzTarPerm modified mode [ 'graphiql.css', 436, 438 ]
+126 verbose write writing to E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\package.json
+127 info preinstall graphiql@0.7.3
+128 verbose readDependencies loading dependencies from E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\package.json
+129 silly prepareForInstallMany adding codemirror@^5.15.2 from graphiql dependencies
+130 silly prepareForInstallMany adding codemirror-graphql@^0.5.2 from graphiql dependencies
+131 silly prepareForInstallMany adding marked@^0.3.5 from graphiql dependencies
+132 silly prepareForInstallMany adding graphql@^0.6.0 from graphiql peerDependencies
+133 warn peerDependencies The peer dependency graphql@^0.6.0 included from graphiql will no
+134 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+135 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+136 verbose readDependencies loading dependencies from E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\package.json
+137 silly cache add args [ 'codemirror@^5.15.2', null ]
+138 verbose cache add spec codemirror@^5.15.2
+139 silly cache add args [ 'codemirror-graphql@^0.5.2', null ]
+140 verbose cache add spec codemirror-graphql@^0.5.2
+141 silly cache add parsed spec Result {
+141 silly cache add   raw: 'codemirror@^5.15.2',
+141 silly cache add   scope: null,
+141 silly cache add   name: 'codemirror',
+141 silly cache add   rawSpec: '^5.15.2',
+141 silly cache add   spec: '>=5.15.2 <6.0.0',
+141 silly cache add   type: 'range' }
+142 silly addNamed codemirror@>=5.15.2 <6.0.0
+143 verbose addNamed ">=5.15.2 <6.0.0" is a valid semver range for codemirror
+144 silly addNameRange { name: 'codemirror', range: '>=5.15.2 <6.0.0', hasData: false }
+145 silly mapToRegistry name codemirror
+146 silly mapToRegistry using default registry
+147 silly mapToRegistry registry https://registry.npmjs.org/
+148 silly mapToRegistry uri https://registry.npmjs.org/codemirror
+149 verbose addNameRange registry:https://registry.npmjs.org/codemirror not in flight; fetching
+150 silly cache add parsed spec Result {
+150 silly cache add   raw: 'codemirror-graphql@^0.5.2',
+150 silly cache add   scope: null,
+150 silly cache add   name: 'codemirror-graphql',
+150 silly cache add   rawSpec: '^0.5.2',
+150 silly cache add   spec: '>=0.5.2 <0.6.0',
+150 silly cache add   type: 'range' }
+151 silly addNamed codemirror-graphql@>=0.5.2 <0.6.0
+152 verbose addNamed ">=0.5.2 <0.6.0" is a valid semver range for codemirror-graphql
+153 silly addNameRange { name: 'codemirror-graphql',
+153 silly addNameRange   range: '>=0.5.2 <0.6.0',
+153 silly addNameRange   hasData: false }
+154 silly mapToRegistry name codemirror-graphql
+155 silly mapToRegistry using default registry
+156 silly mapToRegistry registry https://registry.npmjs.org/
+157 silly mapToRegistry uri https://registry.npmjs.org/codemirror-graphql
+158 verbose addNameRange registry:https://registry.npmjs.org/codemirror-graphql not in flight; fetching
+159 silly cache add args [ 'marked@^0.3.5', null ]
+160 verbose cache add spec marked@^0.3.5
+161 silly cache add parsed spec Result {
+161 silly cache add   raw: 'marked@^0.3.5',
+161 silly cache add   scope: null,
+161 silly cache add   name: 'marked',
+161 silly cache add   rawSpec: '^0.3.5',
+161 silly cache add   spec: '>=0.3.5 <0.4.0',
+161 silly cache add   type: 'range' }
+162 silly addNamed marked@>=0.3.5 <0.4.0
+163 verbose addNamed ">=0.3.5 <0.4.0" is a valid semver range for marked
+164 silly addNameRange { name: 'marked', range: '>=0.3.5 <0.4.0', hasData: false }
+165 silly mapToRegistry name marked
+166 silly mapToRegistry using default registry
+167 silly mapToRegistry registry https://registry.npmjs.org/
+168 silly mapToRegistry uri https://registry.npmjs.org/marked
+169 verbose addNameRange registry:https://registry.npmjs.org/marked not in flight; fetching
+170 verbose request uri https://registry.npmjs.org/marked
+171 verbose request no auth needed
+172 info attempt registry request try #1 at 2:31:50 PM
+173 verbose etag "293EOLNVKOVM7XKH7O3H3WSK5"
+174 http request GET https://registry.npmjs.org/marked
+175 verbose request uri https://registry.npmjs.org/codemirror-graphql
+176 verbose request no auth needed
+177 info attempt registry request try #1 at 2:31:50 PM
+178 verbose etag "3ZEPNNXBVJOBO74DHNUHTERK0"
+179 http request GET https://registry.npmjs.org/codemirror-graphql
+180 verbose request uri https://registry.npmjs.org/codemirror
+181 verbose request no auth needed
+182 info attempt registry request try #1 at 2:31:50 PM
+183 verbose etag "5M3VDFBWQIUBK7U33ZZI75DJA"
+184 http request GET https://registry.npmjs.org/codemirror
+185 http 200 https://registry.npmjs.org/marked
+186 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+186 verbose headers   etag: '"DM2ECXJF86YJY8BRL4H5N35JY"',
+186 verbose headers   'content-type': 'application/json',
+186 verbose headers   'content-encoding': 'gzip',
+186 verbose headers   'cache-control': 'max-age=300',
+186 verbose headers   'content-length': '9471',
+186 verbose headers   'accept-ranges': 'bytes',
+186 verbose headers   date: 'Fri, 22 Jul 2016 07:31:43 GMT',
+186 verbose headers   via: '1.1 varnish',
+186 verbose headers   age: '175',
+186 verbose headers   connection: 'keep-alive',
+186 verbose headers   'x-served-by': 'cache-sin6926-SIN',
+186 verbose headers   'x-cache': 'HIT',
+186 verbose headers   'x-cache-hits': '6',
+186 verbose headers   'x-timer': 'S1469172703.065570,VS0,VE0',
+186 verbose headers   vary: 'Accept-Encoding' }
+187 silly get cb [ 200,
+187 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+187 silly get     etag: '"DM2ECXJF86YJY8BRL4H5N35JY"',
+187 silly get     'content-type': 'application/json',
+187 silly get     'content-encoding': 'gzip',
+187 silly get     'cache-control': 'max-age=300',
+187 silly get     'content-length': '9471',
+187 silly get     'accept-ranges': 'bytes',
+187 silly get     date: 'Fri, 22 Jul 2016 07:31:43 GMT',
+187 silly get     via: '1.1 varnish',
+187 silly get     age: '175',
+187 silly get     connection: 'keep-alive',
+187 silly get     'x-served-by': 'cache-sin6926-SIN',
+187 silly get     'x-cache': 'HIT',
+187 silly get     'x-cache-hits': '6',
+187 silly get     'x-timer': 'S1469172703.065570,VS0,VE0',
+187 silly get     vary: 'Accept-Encoding' } ]
+188 verbose get saving marked to C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\registry.npmjs.org\marked\.cache.json
+189 verbose correctMkdir C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+190 silly addNameRange number 2 { name: 'marked', range: '>=0.3.5 <0.4.0', hasData: true }
+191 silly addNameRange versions [ 'marked',
+191 silly addNameRange   [ '0.0.1',
+191 silly addNameRange     '0.0.2',
+191 silly addNameRange     '0.0.3',
+191 silly addNameRange     '0.0.4',
+191 silly addNameRange     '0.0.5',
+191 silly addNameRange     '0.0.6',
+191 silly addNameRange     '0.0.7',
+191 silly addNameRange     '0.0.8',
+191 silly addNameRange     '0.0.9',
+191 silly addNameRange     '0.1.0',
+191 silly addNameRange     '0.1.1',
+191 silly addNameRange     '0.1.2',
+191 silly addNameRange     '0.1.3',
+191 silly addNameRange     '0.1.4',
+191 silly addNameRange     '0.1.5',
+191 silly addNameRange     '0.1.6',
+191 silly addNameRange     '0.1.7',
+191 silly addNameRange     '0.1.8',
+191 silly addNameRange     '0.1.9',
+191 silly addNameRange     '0.2.0',
+191 silly addNameRange     '0.2.1',
+191 silly addNameRange     '0.2.2',
+191 silly addNameRange     '0.2.2-1',
+191 silly addNameRange     '0.2.3',
+191 silly addNameRange     '0.2.4',
+191 silly addNameRange     '0.2.4-1',
+191 silly addNameRange     '0.2.5',
+191 silly addNameRange     '0.2.6',
+191 silly addNameRange     '0.2.7',
+191 silly addNameRange     '0.2.8',
+191 silly addNameRange     '0.2.9',
+191 silly addNameRange     '0.2.10',
+191 silly addNameRange     '0.3.0',
+191 silly addNameRange     '0.3.1',
+191 silly addNameRange     '0.3.2',
+191 silly addNameRange     '0.3.3',
+191 silly addNameRange     '0.3.4',
+191 silly addNameRange     '0.3.5' ] ]
+192 silly addNamed marked@0.3.5
+193 verbose addNamed "0.3.5" is a plain semver version for marked
+194 silly cache afterAdd marked@0.3.5
+195 verbose afterAdd C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\marked\0.3.5\package\package.json not in flight; writing
+196 verbose correctMkdir C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+197 verbose afterAdd C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\marked\0.3.5\package\package.json written
+198 http 200 https://registry.npmjs.org/codemirror-graphql
+199 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+199 verbose headers   etag: '"7Z3TIP6JWTWUB0UDGF66HA9F7"',
+199 verbose headers   'content-type': 'application/json',
+199 verbose headers   'content-encoding': 'gzip',
+199 verbose headers   'cache-control': 'max-age=300',
+199 verbose headers   'content-length': '3361',
+199 verbose headers   'accept-ranges': 'bytes',
+199 verbose headers   date: 'Fri, 22 Jul 2016 07:31:43 GMT',
+199 verbose headers   via: '1.1 varnish',
+199 verbose headers   age: '0',
+199 verbose headers   connection: 'keep-alive',
+199 verbose headers   'x-served-by': 'cache-sin6923-SIN',
+199 verbose headers   'x-cache': 'MISS',
+199 verbose headers   'x-cache-hits': '0',
+199 verbose headers   'x-timer': 'S1469172703.130616,VS0,VE242',
+199 verbose headers   vary: 'Accept-Encoding' }
+200 silly get cb [ 200,
+200 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+200 silly get     etag: '"7Z3TIP6JWTWUB0UDGF66HA9F7"',
+200 silly get     'content-type': 'application/json',
+200 silly get     'content-encoding': 'gzip',
+200 silly get     'cache-control': 'max-age=300',
+200 silly get     'content-length': '3361',
+200 silly get     'accept-ranges': 'bytes',
+200 silly get     date: 'Fri, 22 Jul 2016 07:31:43 GMT',
+200 silly get     via: '1.1 varnish',
+200 silly get     age: '0',
+200 silly get     connection: 'keep-alive',
+200 silly get     'x-served-by': 'cache-sin6923-SIN',
+200 silly get     'x-cache': 'MISS',
+200 silly get     'x-cache-hits': '0',
+200 silly get     'x-timer': 'S1469172703.130616,VS0,VE242',
+200 silly get     vary: 'Accept-Encoding' } ]
+201 verbose get saving codemirror-graphql to C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\registry.npmjs.org\codemirror-graphql\.cache.json
+202 verbose correctMkdir C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+203 silly addNameRange number 2 { name: 'codemirror-graphql',
+203 silly addNameRange   range: '>=0.5.2 <0.6.0',
+203 silly addNameRange   hasData: true }
+204 silly addNameRange versions [ 'codemirror-graphql',
+204 silly addNameRange   [ '0.1.0',
+204 silly addNameRange     '0.1.1',
+204 silly addNameRange     '0.2.0',
+204 silly addNameRange     '0.2.1',
+204 silly addNameRange     '0.2.2',
+204 silly addNameRange     '0.3.0',
+204 silly addNameRange     '0.3.1',
+204 silly addNameRange     '0.5.0',
+204 silly addNameRange     '0.5.1',
+204 silly addNameRange     '0.5.2' ] ]
+205 silly addNamed codemirror-graphql@0.5.2
+206 verbose addNamed "0.5.2" is a plain semver version for codemirror-graphql
+207 silly mapToRegistry name codemirror-graphql
+208 silly mapToRegistry using default registry
+209 silly mapToRegistry registry https://registry.npmjs.org/
+210 silly mapToRegistry uri https://registry.npmjs.org/codemirror-graphql
+211 verbose addRemoteTarball https://registry.npmjs.org/codemirror-graphql/-/codemirror-graphql-0.5.2.tgz not in flight; adding
+212 verbose addRemoteTarball [ 'https://registry.npmjs.org/codemirror-graphql/-/codemirror-graphql-0.5.2.tgz',
+212 verbose addRemoteTarball   'faa61933b7cfba7d369fcfdf324ff937599aec95' ]
+213 info retry fetch attempt 1 at 2:31:51 PM
+214 info attempt registry request try #1 at 2:31:51 PM
+215 http fetch GET https://registry.npmjs.org/codemirror-graphql/-/codemirror-graphql-0.5.2.tgz
+216 http 200 https://registry.npmjs.org/codemirror
+217 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+217 verbose headers   etag: '"193HHUWXCIWOTZ9MJKAQWY9WX"',
+217 verbose headers   'content-type': 'application/json',
+217 verbose headers   'content-encoding': 'gzip',
+217 verbose headers   'cache-control': 'max-age=300',
+217 verbose headers   'content-length': '53193',
+217 verbose headers   'accept-ranges': 'bytes',
+217 verbose headers   date: 'Fri, 22 Jul 2016 07:31:43 GMT',
+217 verbose headers   via: '1.1 varnish',
+217 verbose headers   age: '17',
+217 verbose headers   connection: 'keep-alive',
+217 verbose headers   'x-served-by': 'cache-sin6927-SIN',
+217 verbose headers   'x-cache': 'HIT',
+217 verbose headers   'x-cache-hits': '6',
+217 verbose headers   'x-timer': 'S1469172703.162073,VS0,VE0',
+217 verbose headers   vary: 'Accept-Encoding' }
+218 silly get cb [ 200,
+218 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+218 silly get     etag: '"193HHUWXCIWOTZ9MJKAQWY9WX"',
+218 silly get     'content-type': 'application/json',
+218 silly get     'content-encoding': 'gzip',
+218 silly get     'cache-control': 'max-age=300',
+218 silly get     'content-length': '53193',
+218 silly get     'accept-ranges': 'bytes',
+218 silly get     date: 'Fri, 22 Jul 2016 07:31:43 GMT',
+218 silly get     via: '1.1 varnish',
+218 silly get     age: '17',
+218 silly get     connection: 'keep-alive',
+218 silly get     'x-served-by': 'cache-sin6927-SIN',
+218 silly get     'x-cache': 'HIT',
+218 silly get     'x-cache-hits': '6',
+218 silly get     'x-timer': 'S1469172703.162073,VS0,VE0',
+218 silly get     vary: 'Accept-Encoding' } ]
+219 verbose get saving codemirror to C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\registry.npmjs.org\codemirror\.cache.json
+220 verbose correctMkdir C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+221 silly addNameRange number 2 { name: 'codemirror', range: '>=5.15.2 <6.0.0', hasData: true }
+222 silly addNameRange versions [ 'codemirror',
+222 silly addNameRange   [ '2.33.0',
+222 silly addNameRange     '3.14.1',
+222 silly addNameRange     '3.15.0',
+222 silly addNameRange     '3.16.0',
+222 silly addNameRange     '3.17.0',
+222 silly addNameRange     '3.18.0',
+222 silly addNameRange     '3.19.0',
+222 silly addNameRange     '3.20.0',
+222 silly addNameRange     '3.21.0',
+222 silly addNameRange     '3.22.0',
+222 silly addNameRange     '3.23.0',
+222 silly addNameRange     '4.0.3',
+222 silly addNameRange     '3.24.0',
+222 silly addNameRange     '4.1.0',
+222 silly addNameRange     '4.2.0',
+222 silly addNameRange     '4.3.0',
+222 silly addNameRange     '4.4.0',
+222 silly addNameRange     '4.5.0',
+222 silly addNameRange     '4.6.0',
+222 silly addNameRange     '4.7.0',
+222 silly addNameRange     '4.8.0',
+222 silly addNameRange     '4.9.0',
+222 silly addNameRange     '4.10.0',
+222 silly addNameRange     '4.11.0',
+222 silly addNameRange     '4.12.0',
+222 silly addNameRange     '4.13.0',
+222 silly addNameRange     '5.0.0',
+222 silly addNameRange     '5.1.0',
+222 silly addNameRange     '5.2.0',
+222 silly addNameRange     '5.3.0',
+222 silly addNameRange     '5.4.0',
+222 silly addNameRange     '5.5.0',
+222 silly addNameRange     '5.6.0',
+222 silly addNameRange     '5.7.0',
+222 silly addNameRange     '5.8.0',
+222 silly addNameRange     '5.9.0',
+222 silly addNameRange     '5.10.0',
+222 silly addNameRange     '5.11.0',
+222 silly addNameRange     '5.12.0',
+222 silly addNameRange     '5.13.0',
+222 silly addNameRange     '5.13.2',
+222 silly addNameRange     '5.13.4',
+222 silly addNameRange     '5.14.0',
+222 silly addNameRange     '5.14.2',
+222 silly addNameRange     '5.15.0',
+222 silly addNameRange     '5.15.2',
+222 silly addNameRange     '5.16.0',
+222 silly addNameRange     '5.17.0',
+222 silly addNameRange     '3.11.1',
+222 silly addNameRange     '3.12.0',
+222 silly addNameRange     '3.13.0' ] ]
+223 silly addNamed codemirror@5.17.0
+224 verbose addNamed "5.17.0" is a plain semver version for codemirror
+225 silly mapToRegistry name codemirror
+226 silly mapToRegistry using default registry
+227 silly mapToRegistry registry https://registry.npmjs.org/
+228 silly mapToRegistry uri https://registry.npmjs.org/codemirror
+229 verbose addRemoteTarball https://registry.npmjs.org/codemirror/-/codemirror-5.17.0.tgz not in flight; adding
+230 verbose addRemoteTarball [ 'https://registry.npmjs.org/codemirror/-/codemirror-5.17.0.tgz',
+230 verbose addRemoteTarball   'a9431353373f152fe2851f29502a3aa12c1d6247' ]
+231 info retry fetch attempt 1 at 2:31:51 PM
+232 info attempt registry request try #1 at 2:31:51 PM
+233 http fetch GET https://registry.npmjs.org/codemirror/-/codemirror-5.17.0.tgz
+234 http fetch 200 https://registry.npmjs.org/codemirror-graphql/-/codemirror-graphql-0.5.2.tgz
+235 http fetch 200 https://registry.npmjs.org/codemirror/-/codemirror-5.17.0.tgz
+236 silly fetchAndShaCheck shasum faa61933b7cfba7d369fcfdf324ff937599aec95
+237 verbose addTmpTarball C:\Users\HENRAS~1\AppData\Local\Temp\npm-5792-d559ec71\registry.npmjs.org\codemirror-graphql\-\codemirror-graphql-0.5.2.tgz not in flight; adding
+238 verbose addTmpTarball already have metadata; skipping unpack for codemirror-graphql@0.5.2
+239 verbose correctMkdir C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+240 silly cache afterAdd codemirror-graphql@0.5.2
+241 verbose afterAdd C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\codemirror-graphql\0.5.2\package\package.json not in flight; writing
+242 verbose correctMkdir C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+243 verbose afterAdd C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\codemirror-graphql\0.5.2\package\package.json written
+244 silly fetchAndShaCheck shasum a9431353373f152fe2851f29502a3aa12c1d6247
+245 verbose addTmpTarball C:\Users\HENRAS~1\AppData\Local\Temp\npm-5792-d559ec71\registry.npmjs.org\codemirror\-\codemirror-5.17.0.tgz not in flight; adding
+246 verbose addTmpTarball already have metadata; skipping unpack for codemirror@5.17.0
+247 verbose correctMkdir C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+248 silly cache afterAdd codemirror@5.17.0
+249 verbose afterAdd C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\codemirror\5.17.0\package\package.json not in flight; writing
+250 verbose correctMkdir C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+251 verbose afterAdd C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\codemirror\5.17.0\package\package.json written
+252 silly install resolved [ { name: 'marked',
+252 silly install resolved     description: 'A markdown parser built for speed',
+252 silly install resolved     author: { name: 'Christopher Jeffrey' },
+252 silly install resolved     version: '0.3.5',
+252 silly install resolved     main: './lib/marked.js',
+252 silly install resolved     bin: { marked: './bin/marked' },
+252 silly install resolved     man: [ './man/marked.1' ],
+252 silly install resolved     preferGlobal: true,
+252 silly install resolved     repository: { type: 'git', url: 'git://github.com/chjj/marked.git' },
+252 silly install resolved     homepage: 'https://github.com/chjj/marked',
+252 silly install resolved     bugs: { url: 'http://github.com/chjj/marked/issues' },
+252 silly install resolved     license: 'MIT',
+252 silly install resolved     keywords: [ 'markdown', 'markup', 'html' ],
+252 silly install resolved     tags: [ 'markdown', 'markup', 'html' ],
+252 silly install resolved     devDependencies:
+252 silly install resolved      { markdown: '*',
+252 silly install resolved        showdown: '*',
+252 silly install resolved        gulp: '^3.8.11',
+252 silly install resolved        'gulp-uglify': '^1.1.0',
+252 silly install resolved        'gulp-concat': '^2.5.2' },
+252 silly install resolved     scripts: { test: 'node test', bench: 'node test --bench' },
+252 silly install resolved     gitHead: '88ce4df47c4d994dc1b1df1477a21fb893e11ddc',
+252 silly install resolved     _id: 'marked@0.3.5',
+252 silly install resolved     _shasum: '4113a15ac5d7bca158a5aae07224587b9fa15b94',
+252 silly install resolved     _from: 'marked@>=0.3.5 <0.4.0',
+252 silly install resolved     _npmVersion: '2.13.2',
+252 silly install resolved     _nodeVersion: '0.12.7',
+252 silly install resolved     _npmUser: { name: 'chjj', email: 'chjjeffrey@gmail.com' },
+252 silly install resolved     maintainers: [ [Object] ],
+252 silly install resolved     dist:
+252 silly install resolved      { shasum: '4113a15ac5d7bca158a5aae07224587b9fa15b94',
+252 silly install resolved        tarball: 'https://registry.npmjs.org/marked/-/marked-0.3.5.tgz' },
+252 silly install resolved     directories: {},
+252 silly install resolved     _resolved: 'https://registry.npmjs.org/marked/-/marked-0.3.5.tgz',
+252 silly install resolved     readme: 'ERROR: No README data found!' },
+252 silly install resolved   { name: 'codemirror-graphql',
+252 silly install resolved     version: '0.5.2',
+252 silly install resolved     description: 'GraphQL mode and helpers for CodeMirror.',
+252 silly install resolved     contributors: [ [Object], [Object] ],
+252 silly install resolved     homepage: 'https://github.com/graphql/codemirror-graphql',
+252 silly install resolved     bugs: { url: 'https://github.com/graphql/codemirror-graphql/issues' },
+252 silly install resolved     repository:
+252 silly install resolved      { type: 'git',
+252 silly install resolved        url: 'git+ssh://git@github.com/graphql/codemirror-graphql.git' },
+252 silly install resolved     license: 'BSD-3-Clause',
+252 silly install resolved     files:
+252 silly install resolved      [ 'hint.js',
+252 silly install resolved        'mode.js',
+252 silly install resolved        'lint.js',
+252 silly install resolved        'utils',
+252 silly install resolved        'variables',
+252 silly install resolved        'README.md',
+252 silly install resolved        'LICENSE' ],
+252 silly install resolved     babel: { loose: [Object] },
+252 silly install resolved     options: { mocha: '--full-trace --require resources/mocha-bootload src/**/__tests__/**/*-test.js' },
+252 silly install resolved     scripts:
+252 silly install resolved      { test: 'npm run lint && npm run testonly',
+252 silly install resolved        testonly: 'mocha $npm_package_options_mocha',
+252 silly install resolved        lint: 'eslint src',
+252 silly install resolved        check: 'flow check',
+252 silly install resolved        build: 'babel src --ignore __tests__ --out-dir .',
+252 silly install resolved        watch: 'babel --optional runtime resources/watch.js | node',
+252 silly install resolved        preversion: '. ./resources/checkgit.sh && npm test',
+252 silly install resolved        prepublish: '. ./resources/prepublish.sh' },
+252 silly install resolved     peerDependencies: { graphql: '^0.6.0', codemirror: '^5.6.0' },
+252 silly install resolved     devDependencies:
+252 silly install resolved      { babel: '5.8.23',
+252 silly install resolved        'babel-core': '5.8.23',
+252 silly install resolved        'babel-eslint': '4.1.8',
+252 silly install resolved        chai: '3.5.0',
+252 silly install resolved        'chai-subset': '1.2.2',
+252 silly install resolved        codemirror: '5.13.4',
+252 silly install resolved        eslint: '1.10.3',
+252 silly install resolved        'flow-bin': '0.22.1',
+252 silly install resolved        graphql: '0.5.0',
+252 silly install resolved        jsdom: '8.3.0',
+252 silly install resolved        mocha: '2.4.5',
+252 silly install resolved        sane: '1.3.4' },
+252 silly install resolved     gitHead: 'ca15619c7812b09c0866f2f826b9b691b9b344e9',
+252 silly install resolved     _id: 'codemirror-graphql@0.5.2',
+252 silly install resolved     _shasum: 'faa61933b7cfba7d369fcfdf324ff937599aec95',
+252 silly install resolved     _from: 'codemirror-graphql@>=0.5.2 <0.6.0',
+252 silly install resolved     _npmVersion: '3.9.5',
+252 silly install resolved     _nodeVersion: '6.2.2',
+252 silly install resolved     _npmUser: { name: 'leebyron', email: 'lee@leebyron.com' },
+252 silly install resolved     dist:
+252 silly install resolved      { shasum: 'faa61933b7cfba7d369fcfdf324ff937599aec95',
+252 silly install resolved        tarball: 'https://registry.npmjs.org/codemirror-graphql/-/codemirror-graphql-0.5.2.tgz' },
+252 silly install resolved     maintainers: [ [Object] ],
+252 silly install resolved     _npmOperationalInternal:
+252 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+252 silly install resolved        tmp: 'tmp/codemirror-graphql-0.5.2.tgz_1466755514981_0.17020766763016582' },
+252 silly install resolved     directories: {},
+252 silly install resolved     _resolved: 'https://registry.npmjs.org/codemirror-graphql/-/codemirror-graphql-0.5.2.tgz' },
+252 silly install resolved   { name: 'codemirror',
+252 silly install resolved     version: '5.17.0',
+252 silly install resolved     main: 'lib/codemirror.js',
+252 silly install resolved     description: 'Full-featured in-browser code editor',
+252 silly install resolved     license: 'MIT',
+252 silly install resolved     directories: { lib: './lib' },
+252 silly install resolved     scripts: { test: 'node ./test/run.js', lint: 'bin/lint' },
+252 silly install resolved     devDependencies:
+252 silly install resolved      { 'node-static': '0.6.0',
+252 silly install resolved        phantomjs: '1.9.2-5',
+252 silly install resolved        blint: '>=0.1.1' },
+252 silly install resolved     bugs: { url: 'http://github.com/codemirror/CodeMirror/issues' },
+252 silly install resolved     keywords: [ 'JavaScript', 'CodeMirror', 'Editor' ],
+252 silly install resolved     homepage: 'http://codemirror.net',
+252 silly install resolved     maintainers: [ [Object] ],
+252 silly install resolved     repository:
+252 silly install resolved      { type: 'git',
+252 silly install resolved        url: 'git+https://github.com/codemirror/CodeMirror.git' },
+252 silly install resolved     jspm: { directories: {}, dependencies: {}, devDependencies: {} },
+252 silly install resolved     contributors:
+252 silly install resolved      [ [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object],
+252 silly install resolved        [Object] ],
+252 silly install resolved     gitHead: 'b6c7f3ff2e04a3d41937c30cdedbd004e5eb22d2',
+252 silly install resolved     _id: 'codemirror@5.17.0',
+252 silly install resolved     _shasum: 'a9431353373f152fe2851f29502a3aa12c1d6247',
+252 silly install resolved     _from: 'codemirror@>=5.15.2 <6.0.0',
+252 silly install resolved     _npmVersion: '3.10.3',
+252 silly install resolved     _nodeVersion: '6.3.0',
+252 silly install resolved     _npmUser: { name: 'marijn', email: 'marijnh@gmail.com' },
+252 silly install resolved     dist:
+252 silly install resolved      { shasum: 'a9431353373f152fe2851f29502a3aa12c1d6247',
+252 silly install resolved        tarball: 'https://registry.npmjs.org/codemirror/-/codemirror-5.17.0.tgz' },
+252 silly install resolved     _npmOperationalInternal:
+252 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+252 silly install resolved        tmp: 'tmp/codemirror-5.17.0.tgz_1468930670279_0.984569096704945' },
+252 silly install resolved     _resolved: 'https://registry.npmjs.org/codemirror/-/codemirror-5.17.0.tgz' } ]
+253 info install marked@0.3.5 into E:\Project\heroku\scriptsweat-graph\node_modules\graphiql
+254 info install codemirror-graphql@0.5.2 into E:\Project\heroku\scriptsweat-graph\node_modules\graphiql
+255 info install codemirror@5.17.0 into E:\Project\heroku\scriptsweat-graph\node_modules\graphiql
+256 info installOne marked@0.3.5
+257 verbose installOne of marked to E:\Project\heroku\scriptsweat-graph\node_modules\graphiql not in flight; installing
+258 verbose correctMkdir C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+259 info installOne codemirror-graphql@0.5.2
+260 verbose installOne of codemirror-graphql to E:\Project\heroku\scriptsweat-graph\node_modules\graphiql not in flight; installing
+261 verbose correctMkdir C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+262 info installOne codemirror@5.17.0
+263 verbose installOne of codemirror to E:\Project\heroku\scriptsweat-graph\node_modules\graphiql not in flight; installing
+264 verbose correctMkdir C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+265 verbose lock using C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\_locks\marked-452d850c5dd7e7aa.lock for E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\marked
+266 silly install write writing marked 0.3.5 to E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\marked
+267 verbose lock using C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\_locks\codemirror-graphql-a6a3a363ace82218.lock for E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\codemirror-graphql
+268 verbose lock using C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\_locks\codemirror-71be0d3b16a1b963.lock for E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\codemirror
+269 silly install write writing codemirror-graphql 0.5.2 to E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\codemirror-graphql
+270 silly install write writing codemirror 5.17.0 to E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\codemirror
+271 verbose unbuild node_modules\graphiql\node_modules\marked
+272 verbose unbuild node_modules\graphiql\node_modules\codemirror-graphql
+273 silly gentlyRm E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\marked is being purged from base E:\Project\heroku\scriptsweat-graph
+274 verbose gentlyRm don't care about contents; nuking E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\marked
+275 verbose unbuild node_modules\graphiql\node_modules\codemirror
+276 silly gentlyRm E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\codemirror-graphql is being purged from base E:\Project\heroku\scriptsweat-graph
+277 verbose gentlyRm don't care about contents; nuking E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\codemirror-graphql
+278 verbose tar unpack C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\marked\0.3.5\package.tgz
+279 verbose tar unpacking to E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\marked
+280 silly gentlyRm E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\marked is being purged
+281 verbose gentlyRm don't care about contents; nuking E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\marked
+282 verbose tar unpack C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\codemirror-graphql\0.5.2\package.tgz
+283 verbose tar unpacking to E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\codemirror-graphql
+284 silly gentlyRm E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\codemirror-graphql is being purged
+285 verbose gentlyRm don't care about contents; nuking E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\codemirror-graphql
+286 silly gunzTarPerm modes [ '777', '666' ]
+287 silly gentlyRm E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\codemirror is being purged from base E:\Project\heroku\scriptsweat-graph
+288 verbose gentlyRm don't care about contents; nuking E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\codemirror
+289 silly gunzTarPerm modes [ '777', '666' ]
+290 verbose tar unpack C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\codemirror\5.17.0\package.tgz
+291 verbose tar unpacking to E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\codemirror
+292 silly gentlyRm E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\codemirror is being purged
+293 verbose gentlyRm don't care about contents; nuking E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\codemirror
+294 silly gunzTarPerm modes [ '777', '666' ]
+295 silly gunzTarPerm extractEntry package.json
+296 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+297 silly gunzTarPerm extractEntry package.json
+298 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+299 silly gunzTarPerm extractEntry LICENSE
+300 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
+301 silly gunzTarPerm extractEntry hint.js
+302 silly gunzTarPerm modified mode [ 'hint.js', 436, 438 ]
+303 silly gunzTarPerm extractEntry README.md
+304 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+305 silly gunzTarPerm extractEntry LICENSE
+306 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+307 silly gunzTarPerm extractEntry AUTHORS
+308 silly gunzTarPerm modified mode [ 'AUTHORS', 420, 438 ]
+309 silly gunzTarPerm extractEntry CHANGELOG.md
+310 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+311 silly gunzTarPerm extractEntry lint.js
+312 silly gunzTarPerm modified mode [ 'lint.js', 436, 438 ]
+313 silly gunzTarPerm extractEntry mode.js
+314 silly gunzTarPerm modified mode [ 'mode.js', 436, 438 ]
+315 silly gunzTarPerm extractEntry package.json
+316 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+317 silly gunzTarPerm extractEntry CONTRIBUTING.md
+318 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 420, 438 ]
+319 silly gunzTarPerm extractEntry utils/CharacterStream.js
+320 silly gunzTarPerm modified mode [ 'utils/CharacterStream.js', 436, 438 ]
+321 silly gunzTarPerm extractEntry utils/Rules.js
+322 silly gunzTarPerm modified mode [ 'utils/Rules.js', 436, 438 ]
+323 silly gunzTarPerm extractEntry utils/collectVariables.js
+324 silly gunzTarPerm modified mode [ 'utils/collectVariables.js', 436, 438 ]
+325 silly gunzTarPerm extractEntry utils/forEachState.js
+326 silly gunzTarPerm modified mode [ 'utils/forEachState.js', 436, 438 ]
+327 silly gunzTarPerm extractEntry utils/getHintsAtPosition.js
+328 silly gunzTarPerm modified mode [ 'utils/getHintsAtPosition.js', 436, 438 ]
+329 silly gunzTarPerm extractEntry utils/RuleHelpers.js
+330 silly gunzTarPerm modified mode [ 'utils/RuleHelpers.js', 436, 438 ]
+331 silly gunzTarPerm extractEntry utils/hintList.js
+332 silly gunzTarPerm modified mode [ 'utils/hintList.js', 436, 438 ]
+333 silly gunzTarPerm extractEntry utils/jsonParse.js
+334 silly gunzTarPerm modified mode [ 'utils/jsonParse.js', 436, 438 ]
+335 silly gunzTarPerm extractEntry utils/objectValues.js
+336 silly gunzTarPerm modified mode [ 'utils/objectValues.js', 436, 438 ]
+337 silly gunzTarPerm extractEntry utils/onlineParser.js
+338 silly gunzTarPerm modified mode [ 'utils/onlineParser.js', 436, 438 ]
+339 silly gunzTarPerm extractEntry utils/runParser.js
+340 silly gunzTarPerm modified mode [ 'utils/runParser.js', 436, 438 ]
+341 silly gunzTarPerm extractEntry utils/getTokenAtPosition.js
+342 silly gunzTarPerm modified mode [ 'utils/getTokenAtPosition.js', 436, 438 ]
+343 silly gunzTarPerm extractEntry variables/hint.js
+344 silly gunzTarPerm modified mode [ 'variables/hint.js', 436, 438 ]
+345 silly gunzTarPerm extractEntry variables/lint.js
+346 silly gunzTarPerm modified mode [ 'variables/lint.js', 436, 438 ]
+347 silly gunzTarPerm extractEntry variables/mode.js
+348 silly gunzTarPerm modified mode [ 'variables/mode.js', 436, 438 ]
+349 silly gunzTarPerm extractEntry .npmignore
+350 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+351 silly gunzTarPerm extractEntry README.md
+352 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+353 silly gunzTarPerm extractEntry LICENSE
+354 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+355 silly gunzTarPerm extractEntry Gulpfile.js
+356 silly gunzTarPerm modified mode [ 'Gulpfile.js', 420, 438 ]
+357 silly gunzTarPerm extractEntry addon/merge/merge.js
+358 silly gunzTarPerm modified mode [ 'addon/merge/merge.js', 420, 438 ]
+359 silly gunzTarPerm extractEntry addon/merge/merge.css
+360 silly gunzTarPerm modified mode [ 'addon/merge/merge.css', 420, 438 ]
+361 silly gunzTarPerm extractEntry index.js
+362 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+363 silly gunzTarPerm extractEntry addon/comment/comment.js
+364 silly gunzTarPerm modified mode [ 'addon/comment/comment.js', 420, 438 ]
+365 silly gunzTarPerm extractEntry addon/comment/continuecomment.js
+366 silly gunzTarPerm modified mode [ 'addon/comment/continuecomment.js', 420, 438 ]
+367 silly gunzTarPerm extractEntry addon/display/autorefresh.js
+368 silly gunzTarPerm modified mode [ 'addon/display/autorefresh.js', 420, 438 ]
+369 silly gunzTarPerm extractEntry addon/display/fullscreen.js
+370 silly gunzTarPerm modified mode [ 'addon/display/fullscreen.js', 420, 438 ]
+371 silly gunzTarPerm extractEntry addon/display/panel.js
+372 silly gunzTarPerm modified mode [ 'addon/display/panel.js', 420, 438 ]
+373 silly gunzTarPerm extractEntry addon/display/placeholder.js
+374 silly gunzTarPerm modified mode [ 'addon/display/placeholder.js', 420, 438 ]
+375 silly gunzTarPerm extractEntry addon/display/rulers.js
+376 silly gunzTarPerm modified mode [ 'addon/display/rulers.js', 420, 438 ]
+377 silly gunzTarPerm extractEntry addon/display/fullscreen.css
+378 silly gunzTarPerm modified mode [ 'addon/display/fullscreen.css', 420, 438 ]
+379 silly gunzTarPerm extractEntry marked.min.js
+380 silly gunzTarPerm modified mode [ 'marked.min.js', 420, 438 ]
+381 silly gunzTarPerm extractEntry bower.json
+382 silly gunzTarPerm modified mode [ 'bower.json', 420, 438 ]
+383 silly gunzTarPerm extractEntry addon/edit/closebrackets.js
+384 silly gunzTarPerm modified mode [ 'addon/edit/closebrackets.js', 420, 438 ]
+385 silly gunzTarPerm extractEntry addon/edit/closetag.js
+386 silly gunzTarPerm modified mode [ 'addon/edit/closetag.js', 420, 438 ]
+387 silly gunzTarPerm extractEntry addon/edit/continuelist.js
+388 silly gunzTarPerm modified mode [ 'addon/edit/continuelist.js', 420, 438 ]
+389 silly gunzTarPerm extractEntry addon/edit/matchbrackets.js
+390 silly gunzTarPerm modified mode [ 'addon/edit/matchbrackets.js', 420, 438 ]
+391 silly gunzTarPerm extractEntry .travis.yml
+392 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+393 silly gunzTarPerm extractEntry doc/broken.md
+394 silly gunzTarPerm modified mode [ 'doc/broken.md', 420, 438 ]
+395 silly gunzTarPerm extractEntry doc/todo.md
+396 silly gunzTarPerm modified mode [ 'doc/todo.md', 420, 438 ]
+397 silly gunzTarPerm extractEntry Makefile
+398 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+399 silly gunzTarPerm extractEntry addon/edit/matchtags.js
+400 silly gunzTarPerm modified mode [ 'addon/edit/matchtags.js', 420, 438 ]
+401 silly gunzTarPerm extractEntry addon/edit/trailingspace.js
+402 silly gunzTarPerm modified mode [ 'addon/edit/trailingspace.js', 420, 438 ]
+403 silly gunzTarPerm extractEntry lib/marked.js
+404 silly gunzTarPerm modified mode [ 'lib/marked.js', 420, 438 ]
+405 silly gunzTarPerm extractEntry man/marked.1
+406 silly gunzTarPerm modified mode [ 'man/marked.1', 420, 438 ]
+407 silly gunzTarPerm extractEntry bin/marked
+408 silly gunzTarPerm modified mode [ 'bin/marked', 493, 511 ]
+409 silly gunzTarPerm extractEntry component.json
+410 silly gunzTarPerm modified mode [ 'component.json', 420, 438 ]
+411 silly gunzTarPerm extractEntry addon/fold/brace-fold.js
+412 silly gunzTarPerm modified mode [ 'addon/fold/brace-fold.js', 420, 438 ]
+413 silly gunzTarPerm extractEntry addon/fold/comment-fold.js
+414 silly gunzTarPerm modified mode [ 'addon/fold/comment-fold.js', 420, 438 ]
+415 silly gunzTarPerm extractEntry addon/fold/foldcode.js
+416 silly gunzTarPerm modified mode [ 'addon/fold/foldcode.js', 420, 438 ]
+417 silly gunzTarPerm extractEntry addon/fold/foldgutter.js
+418 silly gunzTarPerm modified mode [ 'addon/fold/foldgutter.js', 420, 438 ]
+419 silly gunzTarPerm extractEntry addon/fold/indent-fold.js
+420 silly gunzTarPerm modified mode [ 'addon/fold/indent-fold.js', 420, 438 ]
+421 silly gunzTarPerm extractEntry addon/fold/markdown-fold.js
+422 silly gunzTarPerm modified mode [ 'addon/fold/markdown-fold.js', 420, 438 ]
+423 silly gunzTarPerm extractEntry addon/fold/xml-fold.js
+424 silly gunzTarPerm modified mode [ 'addon/fold/xml-fold.js', 420, 438 ]
+425 silly gunzTarPerm extractEntry addon/fold/foldgutter.css
+426 silly gunzTarPerm modified mode [ 'addon/fold/foldgutter.css', 420, 438 ]
+427 silly gunzTarPerm extractEntry addon/hint/anyword-hint.js
+428 silly gunzTarPerm modified mode [ 'addon/hint/anyword-hint.js', 420, 438 ]
+429 silly gunzTarPerm extractEntry addon/hint/css-hint.js
+430 silly gunzTarPerm modified mode [ 'addon/hint/css-hint.js', 420, 438 ]
+431 silly gunzTarPerm extractEntry addon/hint/html-hint.js
+432 silly gunzTarPerm modified mode [ 'addon/hint/html-hint.js', 420, 438 ]
+433 silly gunzTarPerm extractEntry addon/hint/javascript-hint.js
+434 silly gunzTarPerm modified mode [ 'addon/hint/javascript-hint.js', 420, 438 ]
+435 silly gunzTarPerm extractEntry addon/hint/show-hint.js
+436 silly gunzTarPerm modified mode [ 'addon/hint/show-hint.js', 420, 438 ]
+437 silly gunzTarPerm extractEntry addon/hint/sql-hint.js
+438 silly gunzTarPerm modified mode [ 'addon/hint/sql-hint.js', 420, 438 ]
+439 silly gunzTarPerm extractEntry addon/hint/xml-hint.js
+440 silly gunzTarPerm modified mode [ 'addon/hint/xml-hint.js', 420, 438 ]
+441 silly gunzTarPerm extractEntry addon/hint/show-hint.css
+442 silly gunzTarPerm modified mode [ 'addon/hint/show-hint.css', 420, 438 ]
+443 silly gunzTarPerm extractEntry addon/lint/coffeescript-lint.js
+444 silly gunzTarPerm modified mode [ 'addon/lint/coffeescript-lint.js', 420, 438 ]
+445 silly gunzTarPerm extractEntry addon/lint/css-lint.js
+446 silly gunzTarPerm modified mode [ 'addon/lint/css-lint.js', 420, 438 ]
+447 silly gunzTarPerm extractEntry addon/lint/html-lint.js
+448 silly gunzTarPerm modified mode [ 'addon/lint/html-lint.js', 420, 438 ]
+449 silly gunzTarPerm extractEntry addon/lint/javascript-lint.js
+450 silly gunzTarPerm modified mode [ 'addon/lint/javascript-lint.js', 420, 438 ]
+451 verbose write writing to E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\marked\package.json
+452 info preinstall marked@0.3.5
+453 verbose readDependencies loading dependencies from E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\marked\package.json
+454 verbose readDependencies loading dependencies from E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\marked\package.json
+455 silly install resolved []
+456 verbose about to build E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\marked
+457 info build E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\marked
+458 info linkStuff marked@0.3.5
+459 silly linkStuff marked@0.3.5 has E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules as its parent node_modules
+460 verbose linkBins marked@0.3.5
+461 verbose link bins [ { marked: './bin/marked' },
+461 verbose link bins   'E:\\Project\\heroku\\scriptsweat-graph\\node_modules\\graphiql\\node_modules\\.bin',
+461 verbose link bins   false ]
+462 verbose linkMans marked@0.3.5
+463 verbose rebuildBundles marked@0.3.5
+464 verbose write writing to E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\codemirror-graphql\package.json
+465 info preinstall codemirror-graphql@0.5.2
+466 verbose readDependencies loading dependencies from E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\codemirror-graphql\package.json
+467 info install marked@0.3.5
+468 info postinstall marked@0.3.5
+469 silly gunzTarPerm extractEntry addon/lint/json-lint.js
+470 silly gunzTarPerm modified mode [ 'addon/lint/json-lint.js', 420, 438 ]
+471 silly gunzTarPerm extractEntry addon/lint/lint.js
+472 silly gunzTarPerm modified mode [ 'addon/lint/lint.js', 420, 438 ]
+473 silly prepareForInstallMany adding graphql@^0.6.0 from codemirror-graphql peerDependencies
+474 warn peerDependencies The peer dependency graphql@^0.6.0 included from codemirror-graphql will no
+475 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+476 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+477 verbose readDependencies loading dependencies from E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\codemirror-graphql\package.json
+478 verbose unlock done using C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\_locks\marked-452d850c5dd7e7aa.lock for E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\marked
+479 silly install resolved []
+480 verbose about to build E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\codemirror-graphql
+481 info build E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\codemirror-graphql
+482 info linkStuff codemirror-graphql@0.5.2
+483 silly linkStuff codemirror-graphql@0.5.2 has E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules as its parent node_modules
+484 silly gunzTarPerm extractEntry addon/lint/yaml-lint.js
+485 silly gunzTarPerm modified mode [ 'addon/lint/yaml-lint.js', 420, 438 ]
+486 silly gunzTarPerm extractEntry addon/lint/lint.css
+487 silly gunzTarPerm modified mode [ 'addon/lint/lint.css', 420, 438 ]
+488 verbose linkBins codemirror-graphql@0.5.2
+489 verbose linkMans codemirror-graphql@0.5.2
+490 verbose rebuildBundles codemirror-graphql@0.5.2
+491 info install codemirror-graphql@0.5.2
+492 info postinstall codemirror-graphql@0.5.2
+493 verbose readDependencies loading dependencies from E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\package.json
+494 verbose targetResolver reading package data from E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\codemirror\package.json
+495 verbose targetResolver reading package data from E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\codemirror-graphql\package.json
+496 verbose targetResolver reading package data from E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\marked\package.json
+497 verbose targetResolver reading package data from E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\.bin\marked\package.json
+498 verbose targetResolver reading package data from E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\.bin\marked.cmd\package.json
+499 silly cache add args [ 'graphql@^0.6.0', null ]
+500 verbose cache add spec graphql@^0.6.0
+501 silly cache add parsed spec Result {
+501 silly cache add   raw: 'graphql@^0.6.0',
+501 silly cache add   scope: null,
+501 silly cache add   name: 'graphql',
+501 silly cache add   rawSpec: '^0.6.0',
+501 silly cache add   spec: '>=0.6.0 <0.7.0',
+501 silly cache add   type: 'range' }
+502 silly addNamed graphql@>=0.6.0 <0.7.0
+503 verbose addNamed ">=0.6.0 <0.7.0" is a valid semver range for graphql
+504 silly addNameRange { name: 'graphql', range: '>=0.6.0 <0.7.0', hasData: false }
+505 silly mapToRegistry name graphql
+506 silly mapToRegistry using default registry
+507 silly mapToRegistry registry https://registry.npmjs.org/
+508 silly mapToRegistry uri https://registry.npmjs.org/graphql
+509 verbose addNameRange registry:https://registry.npmjs.org/graphql not in flight; fetching
+510 silly gunzTarPerm extractEntry addon/dialog/dialog.js
+511 silly gunzTarPerm modified mode [ 'addon/dialog/dialog.js', 420, 438 ]
+512 silly gunzTarPerm extractEntry addon/dialog/dialog.css
+513 silly gunzTarPerm modified mode [ 'addon/dialog/dialog.css', 420, 438 ]
+514 silly gunzTarPerm extractEntry addon/mode/loadmode.js
+515 silly gunzTarPerm modified mode [ 'addon/mode/loadmode.js', 420, 438 ]
+516 silly gunzTarPerm extractEntry addon/mode/multiplex.js
+517 silly gunzTarPerm modified mode [ 'addon/mode/multiplex.js', 420, 438 ]
+518 silly gunzTarPerm extractEntry addon/mode/multiplex_test.js
+519 silly gunzTarPerm modified mode [ 'addon/mode/multiplex_test.js', 420, 438 ]
+520 silly gunzTarPerm extractEntry addon/mode/overlay.js
+521 silly gunzTarPerm modified mode [ 'addon/mode/overlay.js', 420, 438 ]
+522 silly gunzTarPerm extractEntry addon/mode/simple.js
+523 silly gunzTarPerm modified mode [ 'addon/mode/simple.js', 420, 438 ]
+524 silly gunzTarPerm extractEntry addon/runmode/colorize.js
+525 silly gunzTarPerm modified mode [ 'addon/runmode/colorize.js', 420, 438 ]
+526 silly gunzTarPerm extractEntry addon/runmode/runmode-standalone.js
+527 silly gunzTarPerm modified mode [ 'addon/runmode/runmode-standalone.js', 420, 438 ]
+528 silly gunzTarPerm extractEntry addon/runmode/runmode.js
+529 silly gunzTarPerm modified mode [ 'addon/runmode/runmode.js', 420, 438 ]
+530 silly gunzTarPerm extractEntry addon/runmode/runmode.node.js
+531 silly gunzTarPerm modified mode [ 'addon/runmode/runmode.node.js', 420, 438 ]
+532 silly gunzTarPerm extractEntry addon/scroll/annotatescrollbar.js
+533 silly gunzTarPerm modified mode [ 'addon/scroll/annotatescrollbar.js', 420, 438 ]
+534 verbose request uri https://registry.npmjs.org/graphql
+535 verbose request no auth needed
+536 info attempt registry request try #1 at 2:31:53 PM
+537 verbose etag "BMGUS1FL14FJNEQZPBY664EAC"
+538 http request GET https://registry.npmjs.org/graphql
+539 silly gunzTarPerm extractEntry addon/scroll/scrollpastend.js
+540 silly gunzTarPerm modified mode [ 'addon/scroll/scrollpastend.js', 420, 438 ]
+541 silly gunzTarPerm extractEntry addon/scroll/simplescrollbars.js
+542 silly gunzTarPerm modified mode [ 'addon/scroll/simplescrollbars.js', 420, 438 ]
+543 silly gunzTarPerm extractEntry addon/scroll/simplescrollbars.css
+544 silly gunzTarPerm modified mode [ 'addon/scroll/simplescrollbars.css', 420, 438 ]
+545 silly gunzTarPerm extractEntry addon/search/jump-to-line.js
+546 silly gunzTarPerm modified mode [ 'addon/search/jump-to-line.js', 420, 438 ]
+547 silly gunzTarPerm extractEntry addon/search/match-highlighter.js
+548 silly gunzTarPerm modified mode [ 'addon/search/match-highlighter.js', 420, 438 ]
+549 silly gunzTarPerm extractEntry addon/search/matchesonscrollbar.js
+550 silly gunzTarPerm modified mode [ 'addon/search/matchesonscrollbar.js', 420, 438 ]
+551 silly gunzTarPerm extractEntry addon/search/search.js
+552 silly gunzTarPerm modified mode [ 'addon/search/search.js', 420, 438 ]
+553 silly gunzTarPerm extractEntry addon/search/searchcursor.js
+554 silly gunzTarPerm modified mode [ 'addon/search/searchcursor.js', 420, 438 ]
+555 silly gunzTarPerm extractEntry addon/search/matchesonscrollbar.css
+556 silly gunzTarPerm modified mode [ 'addon/search/matchesonscrollbar.css', 420, 438 ]
+557 silly gunzTarPerm extractEntry addon/selection/active-line.js
+558 silly gunzTarPerm modified mode [ 'addon/selection/active-line.js', 420, 438 ]
+559 silly gunzTarPerm extractEntry addon/selection/mark-selection.js
+560 silly gunzTarPerm modified mode [ 'addon/selection/mark-selection.js', 420, 438 ]
+561 silly gunzTarPerm extractEntry addon/selection/selection-pointer.js
+562 silly gunzTarPerm modified mode [ 'addon/selection/selection-pointer.js', 420, 438 ]
+563 silly gunzTarPerm extractEntry addon/tern/tern.js
+564 silly gunzTarPerm modified mode [ 'addon/tern/tern.js', 420, 438 ]
+565 silly gunzTarPerm extractEntry addon/tern/worker.js
+566 silly gunzTarPerm modified mode [ 'addon/tern/worker.js', 420, 438 ]
+567 silly gunzTarPerm extractEntry addon/tern/tern.css
+568 silly gunzTarPerm modified mode [ 'addon/tern/tern.css', 420, 438 ]
+569 silly gunzTarPerm extractEntry addon/wrap/hardwrap.js
+570 silly gunzTarPerm modified mode [ 'addon/wrap/hardwrap.js', 420, 438 ]
+571 silly gunzTarPerm extractEntry bin/upload-release.js
+572 silly gunzTarPerm modified mode [ 'bin/upload-release.js', 420, 438 ]
+573 silly gunzTarPerm extractEntry bin/authors.sh
+574 silly gunzTarPerm modified mode [ 'bin/authors.sh', 493, 511 ]
+575 silly gunzTarPerm extractEntry bin/compress
+576 silly gunzTarPerm modified mode [ 'bin/compress', 493, 511 ]
+577 silly gunzTarPerm extractEntry bin/lint
+578 silly gunzTarPerm modified mode [ 'bin/lint', 493, 511 ]
+579 silly gunzTarPerm extractEntry bin/release
+580 silly gunzTarPerm modified mode [ 'bin/release', 493, 511 ]
+581 silly gunzTarPerm extractEntry bin/source-highlight
+582 silly gunzTarPerm modified mode [ 'bin/source-highlight', 493, 511 ]
+583 silly gunzTarPerm extractEntry bower.json
+584 silly gunzTarPerm modified mode [ 'bower.json', 420, 438 ]
+585 silly gunzTarPerm extractEntry keymap/emacs.js
+586 silly gunzTarPerm modified mode [ 'keymap/emacs.js', 420, 438 ]
+587 silly gunzTarPerm extractEntry keymap/sublime.js
+588 silly gunzTarPerm modified mode [ 'keymap/sublime.js', 420, 438 ]
+589 silly gunzTarPerm extractEntry keymap/vim.js
+590 silly gunzTarPerm modified mode [ 'keymap/vim.js', 420, 438 ]
+591 silly gunzTarPerm extractEntry lib/codemirror.js
+592 silly gunzTarPerm modified mode [ 'lib/codemirror.js', 420, 438 ]
+593 silly gunzTarPerm extractEntry lib/codemirror.css
+594 silly gunzTarPerm modified mode [ 'lib/codemirror.css', 420, 438 ]
+595 silly gunzTarPerm extractEntry mode/meta.js
+596 silly gunzTarPerm modified mode [ 'mode/meta.js', 420, 438 ]
+597 silly gunzTarPerm extractEntry mode/nginx/nginx.js
+598 silly gunzTarPerm modified mode [ 'mode/nginx/nginx.js', 420, 438 ]
+599 silly gunzTarPerm extractEntry mode/asn.1/asn.1.js
+600 silly gunzTarPerm modified mode [ 'mode/asn.1/asn.1.js', 420, 438 ]
+601 silly gunzTarPerm extractEntry mode/asterisk/asterisk.js
+602 silly gunzTarPerm modified mode [ 'mode/asterisk/asterisk.js', 420, 438 ]
+603 silly gunzTarPerm extractEntry mode/brainfuck/brainfuck.js
+604 silly gunzTarPerm modified mode [ 'mode/brainfuck/brainfuck.js', 420, 438 ]
+605 silly gunzTarPerm extractEntry mode/clike/clike.js
+606 silly gunzTarPerm modified mode [ 'mode/clike/clike.js', 420, 438 ]
+607 silly gunzTarPerm extractEntry mode/clojure/clojure.js
+608 silly gunzTarPerm modified mode [ 'mode/clojure/clojure.js', 420, 438 ]
+609 silly gunzTarPerm extractEntry mode/cmake/cmake.js
+610 silly gunzTarPerm modified mode [ 'mode/cmake/cmake.js', 420, 438 ]
+611 silly gunzTarPerm extractEntry mode/cobol/cobol.js
+612 silly gunzTarPerm modified mode [ 'mode/cobol/cobol.js', 420, 438 ]
+613 silly gunzTarPerm extractEntry mode/coffeescript/coffeescript.js
+614 silly gunzTarPerm modified mode [ 'mode/coffeescript/coffeescript.js', 420, 438 ]
+615 silly gunzTarPerm extractEntry mode/commonlisp/commonlisp.js
+616 silly gunzTarPerm modified mode [ 'mode/commonlisp/commonlisp.js', 420, 438 ]
+617 silly gunzTarPerm extractEntry mode/crystal/crystal.js
+618 silly gunzTarPerm modified mode [ 'mode/crystal/crystal.js', 420, 438 ]
+619 silly gunzTarPerm extractEntry mode/css/css.js
+620 silly gunzTarPerm modified mode [ 'mode/css/css.js', 420, 438 ]
+621 silly gunzTarPerm extractEntry mode/cypher/cypher.js
+622 silly gunzTarPerm modified mode [ 'mode/cypher/cypher.js', 420, 438 ]
+623 silly gunzTarPerm extractEntry mode/d/d.js
+624 silly gunzTarPerm modified mode [ 'mode/d/d.js', 420, 438 ]
+625 silly gunzTarPerm extractEntry mode/dart/dart.js
+626 silly gunzTarPerm modified mode [ 'mode/dart/dart.js', 420, 438 ]
+627 silly gunzTarPerm extractEntry mode/diff/diff.js
+628 silly gunzTarPerm modified mode [ 'mode/diff/diff.js', 420, 438 ]
+629 silly gunzTarPerm extractEntry mode/django/django.js
+630 silly gunzTarPerm modified mode [ 'mode/django/django.js', 420, 438 ]
+631 silly gunzTarPerm extractEntry mode/dockerfile/dockerfile.js
+632 silly gunzTarPerm modified mode [ 'mode/dockerfile/dockerfile.js', 420, 438 ]
+633 silly gunzTarPerm extractEntry mode/dtd/dtd.js
+634 silly gunzTarPerm modified mode [ 'mode/dtd/dtd.js', 420, 438 ]
+635 silly gunzTarPerm extractEntry mode/dylan/dylan.js
+636 silly gunzTarPerm modified mode [ 'mode/dylan/dylan.js', 420, 438 ]
+637 silly gunzTarPerm extractEntry mode/ebnf/ebnf.js
+638 silly gunzTarPerm modified mode [ 'mode/ebnf/ebnf.js', 420, 438 ]
+639 silly gunzTarPerm extractEntry mode/ecl/ecl.js
+640 silly gunzTarPerm modified mode [ 'mode/ecl/ecl.js', 420, 438 ]
+641 silly gunzTarPerm extractEntry mode/eiffel/eiffel.js
+642 silly gunzTarPerm modified mode [ 'mode/eiffel/eiffel.js', 420, 438 ]
+643 silly gunzTarPerm extractEntry mode/elm/elm.js
+644 silly gunzTarPerm modified mode [ 'mode/elm/elm.js', 420, 438 ]
+645 silly gunzTarPerm extractEntry mode/erlang/erlang.js
+646 silly gunzTarPerm modified mode [ 'mode/erlang/erlang.js', 420, 438 ]
+647 silly gunzTarPerm extractEntry mode/factor/factor.js
+648 silly gunzTarPerm modified mode [ 'mode/factor/factor.js', 420, 438 ]
+649 silly gunzTarPerm extractEntry mode/fcl/fcl.js
+650 silly gunzTarPerm modified mode [ 'mode/fcl/fcl.js', 420, 438 ]
+651 silly gunzTarPerm extractEntry mode/forth/forth.js
+652 silly gunzTarPerm modified mode [ 'mode/forth/forth.js', 420, 438 ]
+653 silly gunzTarPerm extractEntry mode/fortran/fortran.js
+654 silly gunzTarPerm modified mode [ 'mode/fortran/fortran.js', 420, 438 ]
+655 silly gunzTarPerm extractEntry mode/gas/gas.js
+656 silly gunzTarPerm modified mode [ 'mode/gas/gas.js', 420, 438 ]
+657 silly gunzTarPerm extractEntry mode/gfm/gfm.js
+658 silly gunzTarPerm modified mode [ 'mode/gfm/gfm.js', 420, 438 ]
+659 silly gunzTarPerm extractEntry mode/gherkin/gherkin.js
+660 silly gunzTarPerm modified mode [ 'mode/gherkin/gherkin.js', 420, 438 ]
+661 silly gunzTarPerm extractEntry mode/go/go.js
+662 silly gunzTarPerm modified mode [ 'mode/go/go.js', 420, 438 ]
+663 silly gunzTarPerm extractEntry mode/groovy/groovy.js
+664 silly gunzTarPerm modified mode [ 'mode/groovy/groovy.js', 420, 438 ]
+665 silly gunzTarPerm extractEntry mode/haml/haml.js
+666 silly gunzTarPerm modified mode [ 'mode/haml/haml.js', 420, 438 ]
+667 silly gunzTarPerm extractEntry mode/handlebars/handlebars.js
+668 silly gunzTarPerm modified mode [ 'mode/handlebars/handlebars.js', 420, 438 ]
+669 silly gunzTarPerm extractEntry mode/haskell/haskell.js
+670 silly gunzTarPerm modified mode [ 'mode/haskell/haskell.js', 420, 438 ]
+671 silly gunzTarPerm extractEntry mode/haskell-literate/haskell-literate.js
+672 silly gunzTarPerm modified mode [ 'mode/haskell-literate/haskell-literate.js', 420, 438 ]
+673 silly gunzTarPerm extractEntry mode/haxe/haxe.js
+674 silly gunzTarPerm modified mode [ 'mode/haxe/haxe.js', 420, 438 ]
+675 silly gunzTarPerm extractEntry mode/htmlembedded/htmlembedded.js
+676 silly gunzTarPerm modified mode [ 'mode/htmlembedded/htmlembedded.js', 420, 438 ]
+677 silly gunzTarPerm extractEntry mode/htmlmixed/htmlmixed.js
+678 silly gunzTarPerm modified mode [ 'mode/htmlmixed/htmlmixed.js', 420, 438 ]
+679 silly gunzTarPerm extractEntry mode/http/http.js
+680 silly gunzTarPerm modified mode [ 'mode/http/http.js', 420, 438 ]
+681 silly gunzTarPerm extractEntry mode/idl/idl.js
+682 silly gunzTarPerm modified mode [ 'mode/idl/idl.js', 420, 438 ]
+683 silly gunzTarPerm extractEntry mode/jade/jade.js
+684 silly gunzTarPerm modified mode [ 'mode/jade/jade.js', 420, 438 ]
+685 silly gunzTarPerm extractEntry mode/javascript/javascript.js
+686 silly gunzTarPerm modified mode [ 'mode/javascript/javascript.js', 420, 438 ]
+687 silly gunzTarPerm extractEntry mode/jinja2/jinja2.js
+688 silly gunzTarPerm modified mode [ 'mode/jinja2/jinja2.js', 420, 438 ]
+689 silly gunzTarPerm extractEntry mode/jsx/jsx.js
+690 silly gunzTarPerm modified mode [ 'mode/jsx/jsx.js', 420, 438 ]
+691 silly gunzTarPerm extractEntry mode/julia/julia.js
+692 silly gunzTarPerm modified mode [ 'mode/julia/julia.js', 420, 438 ]
+693 silly gunzTarPerm extractEntry mode/livescript/livescript.js
+694 silly gunzTarPerm modified mode [ 'mode/livescript/livescript.js', 420, 438 ]
+695 silly gunzTarPerm extractEntry mode/lua/lua.js
+696 silly gunzTarPerm modified mode [ 'mode/lua/lua.js', 420, 438 ]
+697 silly gunzTarPerm extractEntry mode/markdown/markdown.js
+698 silly gunzTarPerm modified mode [ 'mode/markdown/markdown.js', 420, 438 ]
+699 silly gunzTarPerm extractEntry mode/mathematica/mathematica.js
+700 silly gunzTarPerm modified mode [ 'mode/mathematica/mathematica.js', 420, 438 ]
+701 silly gunzTarPerm extractEntry mode/mbox/mbox.js
+702 silly gunzTarPerm modified mode [ 'mode/mbox/mbox.js', 420, 438 ]
+703 silly gunzTarPerm extractEntry mode/apl/apl.js
+704 silly gunzTarPerm modified mode [ 'mode/apl/apl.js', 420, 438 ]
+705 silly gunzTarPerm extractEntry mode/mirc/mirc.js
+706 silly gunzTarPerm modified mode [ 'mode/mirc/mirc.js', 420, 438 ]
+707 silly gunzTarPerm extractEntry mode/mllike/mllike.js
+708 silly gunzTarPerm modified mode [ 'mode/mllike/mllike.js', 420, 438 ]
+709 silly gunzTarPerm extractEntry mode/modelica/modelica.js
+710 silly gunzTarPerm modified mode [ 'mode/modelica/modelica.js', 420, 438 ]
+711 silly gunzTarPerm extractEntry mode/mscgen/mscgen.js
+712 silly gunzTarPerm modified mode [ 'mode/mscgen/mscgen.js', 420, 438 ]
+713 silly gunzTarPerm extractEntry mode/mumps/mumps.js
+714 silly gunzTarPerm modified mode [ 'mode/mumps/mumps.js', 420, 438 ]
+715 silly gunzTarPerm extractEntry mode/asciiarmor/asciiarmor.js
+716 silly gunzTarPerm modified mode [ 'mode/asciiarmor/asciiarmor.js', 420, 438 ]
+717 silly gunzTarPerm extractEntry mode/nsis/nsis.js
+718 silly gunzTarPerm modified mode [ 'mode/nsis/nsis.js', 420, 438 ]
+719 silly gunzTarPerm extractEntry mode/ntriples/ntriples.js
+720 silly gunzTarPerm modified mode [ 'mode/ntriples/ntriples.js', 420, 438 ]
+721 silly gunzTarPerm extractEntry mode/octave/octave.js
+722 silly gunzTarPerm modified mode [ 'mode/octave/octave.js', 420, 438 ]
+723 silly gunzTarPerm extractEntry mode/oz/oz.js
+724 silly gunzTarPerm modified mode [ 'mode/oz/oz.js', 420, 438 ]
+725 silly gunzTarPerm extractEntry mode/pascal/pascal.js
+726 silly gunzTarPerm modified mode [ 'mode/pascal/pascal.js', 420, 438 ]
+727 silly gunzTarPerm extractEntry mode/pegjs/pegjs.js
+728 silly gunzTarPerm modified mode [ 'mode/pegjs/pegjs.js', 420, 438 ]
+729 silly gunzTarPerm extractEntry mode/perl/perl.js
+730 silly gunzTarPerm modified mode [ 'mode/perl/perl.js', 420, 438 ]
+731 silly gunzTarPerm extractEntry mode/php/php.js
+732 silly gunzTarPerm modified mode [ 'mode/php/php.js', 420, 438 ]
+733 silly gunzTarPerm extractEntry mode/pig/pig.js
+734 silly gunzTarPerm modified mode [ 'mode/pig/pig.js', 420, 438 ]
+735 silly gunzTarPerm extractEntry mode/powershell/powershell.js
+736 silly gunzTarPerm modified mode [ 'mode/powershell/powershell.js', 420, 438 ]
+737 silly gunzTarPerm extractEntry mode/properties/properties.js
+738 silly gunzTarPerm modified mode [ 'mode/properties/properties.js', 420, 438 ]
+739 silly gunzTarPerm extractEntry mode/protobuf/protobuf.js
+740 silly gunzTarPerm modified mode [ 'mode/protobuf/protobuf.js', 420, 438 ]
+741 silly gunzTarPerm extractEntry mode/puppet/puppet.js
+742 silly gunzTarPerm modified mode [ 'mode/puppet/puppet.js', 420, 438 ]
+743 silly gunzTarPerm extractEntry mode/python/python.js
+744 silly gunzTarPerm modified mode [ 'mode/python/python.js', 420, 438 ]
+745 silly gunzTarPerm extractEntry mode/q/q.js
+746 silly gunzTarPerm modified mode [ 'mode/q/q.js', 420, 438 ]
+747 silly gunzTarPerm extractEntry mode/r/r.js
+748 silly gunzTarPerm modified mode [ 'mode/r/r.js', 420, 438 ]
+749 silly gunzTarPerm extractEntry mode/rpm/rpm.js
+750 silly gunzTarPerm modified mode [ 'mode/rpm/rpm.js', 420, 438 ]
+751 silly gunzTarPerm extractEntry mode/rpm/changes/index.html
+752 silly gunzTarPerm modified mode [ 'mode/rpm/changes/index.html', 420, 438 ]
+753 silly gunzTarPerm extractEntry mode/rst/rst.js
+754 silly gunzTarPerm modified mode [ 'mode/rst/rst.js', 420, 438 ]
+755 silly gunzTarPerm extractEntry mode/ruby/ruby.js
+756 silly gunzTarPerm modified mode [ 'mode/ruby/ruby.js', 420, 438 ]
+757 silly gunzTarPerm extractEntry mode/rust/rust.js
+758 silly gunzTarPerm modified mode [ 'mode/rust/rust.js', 420, 438 ]
+759 silly gunzTarPerm extractEntry mode/sas/sas.js
+760 silly gunzTarPerm modified mode [ 'mode/sas/sas.js', 493, 511 ]
+761 silly gunzTarPerm extractEntry mode/sass/sass.js
+762 silly gunzTarPerm modified mode [ 'mode/sass/sass.js', 420, 438 ]
+763 silly gunzTarPerm extractEntry mode/scheme/scheme.js
+764 silly gunzTarPerm modified mode [ 'mode/scheme/scheme.js', 420, 438 ]
+765 silly gunzTarPerm extractEntry mode/shell/shell.js
+766 silly gunzTarPerm modified mode [ 'mode/shell/shell.js', 420, 438 ]
+767 silly gunzTarPerm extractEntry mode/sieve/sieve.js
+768 silly gunzTarPerm modified mode [ 'mode/sieve/sieve.js', 420, 438 ]
+769 silly gunzTarPerm extractEntry mode/slim/slim.js
+770 silly gunzTarPerm modified mode [ 'mode/slim/slim.js', 420, 438 ]
+771 silly gunzTarPerm extractEntry mode/smalltalk/smalltalk.js
+772 silly gunzTarPerm modified mode [ 'mode/smalltalk/smalltalk.js', 420, 438 ]
+773 silly gunzTarPerm extractEntry mode/smarty/smarty.js
+774 silly gunzTarPerm modified mode [ 'mode/smarty/smarty.js', 420, 438 ]
+775 silly gunzTarPerm extractEntry mode/solr/solr.js
+776 silly gunzTarPerm modified mode [ 'mode/solr/solr.js', 420, 438 ]
+777 silly gunzTarPerm extractEntry mode/soy/soy.js
+778 silly gunzTarPerm modified mode [ 'mode/soy/soy.js', 420, 438 ]
+779 silly gunzTarPerm extractEntry mode/sparql/sparql.js
+780 silly gunzTarPerm modified mode [ 'mode/sparql/sparql.js', 420, 438 ]
+781 silly gunzTarPerm extractEntry mode/spreadsheet/spreadsheet.js
+782 silly gunzTarPerm modified mode [ 'mode/spreadsheet/spreadsheet.js', 420, 438 ]
+783 silly gunzTarPerm extractEntry mode/sql/sql.js
+784 silly gunzTarPerm modified mode [ 'mode/sql/sql.js', 420, 438 ]
+785 silly gunzTarPerm extractEntry mode/stex/stex.js
+786 silly gunzTarPerm modified mode [ 'mode/stex/stex.js', 420, 438 ]
+787 silly gunzTarPerm extractEntry mode/stylus/stylus.js
+788 silly gunzTarPerm modified mode [ 'mode/stylus/stylus.js', 420, 438 ]
+789 silly gunzTarPerm extractEntry mode/swift/swift.js
+790 silly gunzTarPerm modified mode [ 'mode/swift/swift.js', 420, 438 ]
+791 silly gunzTarPerm extractEntry mode/tcl/tcl.js
+792 silly gunzTarPerm modified mode [ 'mode/tcl/tcl.js', 420, 438 ]
+793 silly gunzTarPerm extractEntry mode/textile/textile.js
+794 silly gunzTarPerm modified mode [ 'mode/textile/textile.js', 420, 438 ]
+795 silly gunzTarPerm extractEntry mode/tiddlywiki/tiddlywiki.js
+796 silly gunzTarPerm modified mode [ 'mode/tiddlywiki/tiddlywiki.js', 420, 438 ]
+797 silly gunzTarPerm extractEntry mode/tiddlywiki/tiddlywiki.css
+798 silly gunzTarPerm modified mode [ 'mode/tiddlywiki/tiddlywiki.css', 420, 438 ]
+799 silly gunzTarPerm extractEntry mode/tiki/tiki.js
+800 silly gunzTarPerm modified mode [ 'mode/tiki/tiki.js', 420, 438 ]
+801 silly gunzTarPerm extractEntry mode/tiki/tiki.css
+802 silly gunzTarPerm modified mode [ 'mode/tiki/tiki.css', 420, 438 ]
+803 silly gunzTarPerm extractEntry mode/toml/toml.js
+804 silly gunzTarPerm modified mode [ 'mode/toml/toml.js', 420, 438 ]
+805 silly gunzTarPerm extractEntry mode/tornado/tornado.js
+806 silly gunzTarPerm modified mode [ 'mode/tornado/tornado.js', 420, 438 ]
+807 silly gunzTarPerm extractEntry mode/troff/troff.js
+808 silly gunzTarPerm modified mode [ 'mode/troff/troff.js', 420, 438 ]
+809 silly gunzTarPerm extractEntry mode/ttcn/ttcn.js
+810 silly gunzTarPerm modified mode [ 'mode/ttcn/ttcn.js', 420, 438 ]
+811 silly gunzTarPerm extractEntry mode/ttcn-cfg/ttcn-cfg.js
+812 silly gunzTarPerm modified mode [ 'mode/ttcn-cfg/ttcn-cfg.js', 420, 438 ]
+813 silly gunzTarPerm extractEntry mode/turtle/turtle.js
+814 silly gunzTarPerm modified mode [ 'mode/turtle/turtle.js', 420, 438 ]
+815 silly gunzTarPerm extractEntry mode/twig/twig.js
+816 silly gunzTarPerm modified mode [ 'mode/twig/twig.js', 420, 438 ]
+817 silly gunzTarPerm extractEntry mode/vb/vb.js
+818 silly gunzTarPerm modified mode [ 'mode/vb/vb.js', 420, 438 ]
+819 silly gunzTarPerm extractEntry mode/vbscript/vbscript.js
+820 silly gunzTarPerm modified mode [ 'mode/vbscript/vbscript.js', 420, 438 ]
+821 silly gunzTarPerm extractEntry mode/velocity/velocity.js
+822 silly gunzTarPerm modified mode [ 'mode/velocity/velocity.js', 420, 438 ]
+823 silly gunzTarPerm extractEntry mode/verilog/verilog.js
+824 silly gunzTarPerm modified mode [ 'mode/verilog/verilog.js', 420, 438 ]
+825 silly gunzTarPerm extractEntry mode/vhdl/vhdl.js
+826 silly gunzTarPerm modified mode [ 'mode/vhdl/vhdl.js', 420, 438 ]
+827 silly gunzTarPerm extractEntry mode/vue/vue.js
+828 silly gunzTarPerm modified mode [ 'mode/vue/vue.js', 420, 438 ]
+829 silly gunzTarPerm extractEntry mode/webidl/webidl.js
+830 silly gunzTarPerm modified mode [ 'mode/webidl/webidl.js', 420, 438 ]
+831 silly gunzTarPerm extractEntry mode/xml/xml.js
+832 silly gunzTarPerm modified mode [ 'mode/xml/xml.js', 420, 438 ]
+833 silly gunzTarPerm extractEntry mode/xquery/xquery.js
+834 silly gunzTarPerm modified mode [ 'mode/xquery/xquery.js', 420, 438 ]
+835 silly gunzTarPerm extractEntry mode/yacas/yacas.js
+836 silly gunzTarPerm modified mode [ 'mode/yacas/yacas.js', 420, 438 ]
+837 silly gunzTarPerm extractEntry mode/yaml/yaml.js
+838 silly gunzTarPerm modified mode [ 'mode/yaml/yaml.js', 420, 438 ]
+839 silly gunzTarPerm extractEntry mode/yaml-frontmatter/yaml-frontmatter.js
+840 silly gunzTarPerm modified mode [ 'mode/yaml-frontmatter/yaml-frontmatter.js', 420, 438 ]
+841 silly gunzTarPerm extractEntry mode/z80/z80.js
+842 silly gunzTarPerm modified mode [ 'mode/z80/z80.js', 420, 438 ]
+843 silly gunzTarPerm extractEntry theme/midnight.css
+844 silly gunzTarPerm modified mode [ 'theme/midnight.css', 420, 438 ]
+845 silly gunzTarPerm extractEntry theme/3024-day.css
+846 silly gunzTarPerm modified mode [ 'theme/3024-day.css', 420, 438 ]
+847 silly gunzTarPerm extractEntry theme/abcdef.css
+848 silly gunzTarPerm modified mode [ 'theme/abcdef.css', 420, 438 ]
+849 silly gunzTarPerm extractEntry theme/ambiance-mobile.css
+850 silly gunzTarPerm modified mode [ 'theme/ambiance-mobile.css', 420, 438 ]
+851 silly gunzTarPerm extractEntry theme/ambiance.css
+852 silly gunzTarPerm modified mode [ 'theme/ambiance.css', 420, 438 ]
+853 silly gunzTarPerm extractEntry theme/base16-dark.css
+854 silly gunzTarPerm modified mode [ 'theme/base16-dark.css', 420, 438 ]
+855 silly gunzTarPerm extractEntry theme/base16-light.css
+856 silly gunzTarPerm modified mode [ 'theme/base16-light.css', 420, 438 ]
+857 silly gunzTarPerm extractEntry theme/bespin.css
+858 silly gunzTarPerm modified mode [ 'theme/bespin.css', 420, 438 ]
+859 silly gunzTarPerm extractEntry theme/blackboard.css
+860 silly gunzTarPerm modified mode [ 'theme/blackboard.css', 420, 438 ]
+861 silly gunzTarPerm extractEntry theme/cobalt.css
+862 silly gunzTarPerm modified mode [ 'theme/cobalt.css', 420, 438 ]
+863 silly gunzTarPerm extractEntry theme/colorforth.css
+864 silly gunzTarPerm modified mode [ 'theme/colorforth.css', 420, 438 ]
+865 silly gunzTarPerm extractEntry theme/dracula.css
+866 silly gunzTarPerm modified mode [ 'theme/dracula.css', 420, 438 ]
+867 silly gunzTarPerm extractEntry theme/eclipse.css
+868 silly gunzTarPerm modified mode [ 'theme/eclipse.css', 420, 438 ]
+869 silly gunzTarPerm extractEntry theme/elegant.css
+870 silly gunzTarPerm modified mode [ 'theme/elegant.css', 420, 438 ]
+871 silly gunzTarPerm extractEntry theme/erlang-dark.css
+872 silly gunzTarPerm modified mode [ 'theme/erlang-dark.css', 420, 438 ]
+873 silly gunzTarPerm extractEntry theme/hopscotch.css
+874 silly gunzTarPerm modified mode [ 'theme/hopscotch.css', 420, 438 ]
+875 silly gunzTarPerm extractEntry theme/icecoder.css
+876 silly gunzTarPerm modified mode [ 'theme/icecoder.css', 420, 438 ]
+877 silly gunzTarPerm extractEntry theme/isotope.css
+878 silly gunzTarPerm modified mode [ 'theme/isotope.css', 420, 438 ]
+879 silly gunzTarPerm extractEntry theme/lesser-dark.css
+880 silly gunzTarPerm modified mode [ 'theme/lesser-dark.css', 420, 438 ]
+881 silly gunzTarPerm extractEntry theme/liquibyte.css
+882 silly gunzTarPerm modified mode [ 'theme/liquibyte.css', 420, 438 ]
+883 silly gunzTarPerm extractEntry theme/material.css
+884 silly gunzTarPerm modified mode [ 'theme/material.css', 420, 438 ]
+885 silly gunzTarPerm extractEntry theme/mbo.css
+886 silly gunzTarPerm modified mode [ 'theme/mbo.css', 420, 438 ]
+887 silly gunzTarPerm extractEntry theme/mdn-like.css
+888 silly gunzTarPerm modified mode [ 'theme/mdn-like.css', 420, 438 ]
+889 silly gunzTarPerm extractEntry theme/3024-night.css
+890 silly gunzTarPerm modified mode [ 'theme/3024-night.css', 420, 438 ]
+891 silly gunzTarPerm extractEntry theme/monokai.css
+892 silly gunzTarPerm modified mode [ 'theme/monokai.css', 420, 438 ]
+893 silly gunzTarPerm extractEntry theme/neat.css
+894 silly gunzTarPerm modified mode [ 'theme/neat.css', 420, 438 ]
+895 silly gunzTarPerm extractEntry theme/neo.css
+896 silly gunzTarPerm modified mode [ 'theme/neo.css', 420, 438 ]
+897 silly gunzTarPerm extractEntry theme/night.css
+898 silly gunzTarPerm modified mode [ 'theme/night.css', 420, 438 ]
+899 silly gunzTarPerm extractEntry theme/panda-syntax.css
+900 silly gunzTarPerm modified mode [ 'theme/panda-syntax.css', 420, 438 ]
+901 silly gunzTarPerm extractEntry theme/paraiso-dark.css
+902 silly gunzTarPerm modified mode [ 'theme/paraiso-dark.css', 420, 438 ]
+903 silly gunzTarPerm extractEntry theme/paraiso-light.css
+904 silly gunzTarPerm modified mode [ 'theme/paraiso-light.css', 420, 438 ]
+905 silly gunzTarPerm extractEntry theme/pastel-on-dark.css
+906 silly gunzTarPerm modified mode [ 'theme/pastel-on-dark.css', 420, 438 ]
+907 silly gunzTarPerm extractEntry theme/railscasts.css
+908 silly gunzTarPerm modified mode [ 'theme/railscasts.css', 420, 438 ]
+909 silly gunzTarPerm extractEntry theme/rubyblue.css
+910 silly gunzTarPerm modified mode [ 'theme/rubyblue.css', 420, 438 ]
+911 silly gunzTarPerm extractEntry theme/seti.css
+912 silly gunzTarPerm modified mode [ 'theme/seti.css', 420, 438 ]
+913 silly gunzTarPerm extractEntry theme/solarized.css
+914 silly gunzTarPerm modified mode [ 'theme/solarized.css', 420, 438 ]
+915 silly gunzTarPerm extractEntry theme/the-matrix.css
+916 silly gunzTarPerm modified mode [ 'theme/the-matrix.css', 420, 438 ]
+917 silly gunzTarPerm extractEntry theme/tomorrow-night-bright.css
+918 silly gunzTarPerm modified mode [ 'theme/tomorrow-night-bright.css', 420, 438 ]
+919 silly gunzTarPerm extractEntry theme/tomorrow-night-eighties.css
+920 silly gunzTarPerm modified mode [ 'theme/tomorrow-night-eighties.css', 420, 438 ]
+921 silly gunzTarPerm extractEntry theme/ttcn.css
+922 silly gunzTarPerm modified mode [ 'theme/ttcn.css', 420, 438 ]
+923 silly gunzTarPerm extractEntry theme/twilight.css
+924 silly gunzTarPerm modified mode [ 'theme/twilight.css', 420, 438 ]
+925 silly gunzTarPerm extractEntry theme/vibrant-ink.css
+926 silly gunzTarPerm modified mode [ 'theme/vibrant-ink.css', 420, 438 ]
+927 silly gunzTarPerm extractEntry theme/xq-dark.css
+928 silly gunzTarPerm modified mode [ 'theme/xq-dark.css', 420, 438 ]
+929 silly gunzTarPerm extractEntry theme/xq-light.css
+930 silly gunzTarPerm modified mode [ 'theme/xq-light.css', 420, 438 ]
+931 silly gunzTarPerm extractEntry theme/yeti.css
+932 silly gunzTarPerm modified mode [ 'theme/yeti.css', 420, 438 ]
+933 silly gunzTarPerm extractEntry theme/zenburn.css
+934 silly gunzTarPerm modified mode [ 'theme/zenburn.css', 420, 438 ]
+935 http 200 https://registry.npmjs.org/graphql
+936 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+936 verbose headers   etag: '"8H7WIJSLFXS4VPNWVKR1VIS94"',
+936 verbose headers   'content-type': 'application/json',
+936 verbose headers   'content-encoding': 'gzip',
+936 verbose headers   'cache-control': 'max-age=300',
+936 verbose headers   'content-length': '15438',
+936 verbose headers   'accept-ranges': 'bytes',
+936 verbose headers   date: 'Fri, 22 Jul 2016 07:31:46 GMT',
+936 verbose headers   via: '1.1 varnish',
+936 verbose headers   age: '95',
+936 verbose headers   connection: 'keep-alive',
+936 verbose headers   'x-served-by': 'cache-sin6924-SIN',
+936 verbose headers   'x-cache': 'HIT',
+936 verbose headers   'x-cache-hits': '1',
+936 verbose headers   'x-timer': 'S1469172706.219585,VS0,VE0',
+936 verbose headers   vary: 'Accept-Encoding' }
+937 silly get cb [ 200,
+937 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+937 silly get     etag: '"8H7WIJSLFXS4VPNWVKR1VIS94"',
+937 silly get     'content-type': 'application/json',
+937 silly get     'content-encoding': 'gzip',
+937 silly get     'cache-control': 'max-age=300',
+937 silly get     'content-length': '15438',
+937 silly get     'accept-ranges': 'bytes',
+937 silly get     date: 'Fri, 22 Jul 2016 07:31:46 GMT',
+937 silly get     via: '1.1 varnish',
+937 silly get     age: '95',
+937 silly get     connection: 'keep-alive',
+937 silly get     'x-served-by': 'cache-sin6924-SIN',
+937 silly get     'x-cache': 'HIT',
+937 silly get     'x-cache-hits': '1',
+937 silly get     'x-timer': 'S1469172706.219585,VS0,VE0',
+937 silly get     vary: 'Accept-Encoding' } ]
+938 verbose get saving graphql to C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\registry.npmjs.org\graphql\.cache.json
+939 verbose correctMkdir C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+940 silly addNameRange number 2 { name: 'graphql', range: '>=0.6.0 <0.7.0', hasData: true }
+941 silly addNameRange versions [ 'graphql',
+941 silly addNameRange   [ '0.0.2',
+941 silly addNameRange     '0.1.0',
+941 silly addNameRange     '0.1.1',
+941 silly addNameRange     '0.1.2',
+941 silly addNameRange     '0.1.3',
+941 silly addNameRange     '0.1.4',
+941 silly addNameRange     '0.1.5',
+941 silly addNameRange     '0.1.6',
+941 silly addNameRange     '0.1.7',
+941 silly addNameRange     '0.1.8',
+941 silly addNameRange     '0.1.9',
+941 silly addNameRange     '0.1.10',
+941 silly addNameRange     '0.1.11',
+941 silly addNameRange     '0.1.12',
+941 silly addNameRange     '0.2.0',
+941 silly addNameRange     '0.2.1',
+941 silly addNameRange     '0.2.2',
+941 silly addNameRange     '0.2.3',
+941 silly addNameRange     '0.2.4',
+941 silly addNameRange     '0.2.5',
+941 silly addNameRange     '0.2.6',
+941 silly addNameRange     '0.3.0',
+941 silly addNameRange     '0.4.1',
+941 silly addNameRange     '0.4.2',
+941 silly addNameRange     '0.4.3',
+941 silly addNameRange     '0.4.4',
+941 silly addNameRange     '0.4.5',
+941 silly addNameRange     '0.4.6',
+941 silly addNameRange     '0.4.7',
+941 silly addNameRange     '0.4.8',
+941 silly addNameRange     '0.4.9',
+941 silly addNameRange     '0.4.10',
+941 silly addNameRange     '0.4.11',
+941 silly addNameRange     '0.4.12',
+941 silly addNameRange     '0.4.13',
+941 silly addNameRange     '0.4.14',
+941 silly addNameRange     '0.4.15',
+941 silly addNameRange     '0.4.16',
+941 silly addNameRange     '0.4.17',
+941 silly addNameRange     '0.4.18',
+941 silly addNameRange     '0.5.0-beta.1',
+941 silly addNameRange     '0.5.0',
+941 silly addNameRange     '0.6.0',
+941 silly addNameRange     '0.6.1',
+941 silly addNameRange     '0.6.2' ] ]
+942 silly addNamed graphql@0.6.2
+943 verbose addNamed "0.6.2" is a plain semver version for graphql
+944 silly mapToRegistry name graphql
+945 silly mapToRegistry using default registry
+946 silly mapToRegistry registry https://registry.npmjs.org/
+947 silly mapToRegistry uri https://registry.npmjs.org/graphql
+948 verbose addRemoteTarball https://registry.npmjs.org/graphql/-/graphql-0.6.2.tgz not in flight; adding
+949 verbose addRemoteTarball [ 'https://registry.npmjs.org/graphql/-/graphql-0.6.2.tgz',
+949 verbose addRemoteTarball   '19cdcb17e5862d64396a0684f92f7be64e90e7af' ]
+950 info retry fetch attempt 1 at 2:31:54 PM
+951 info attempt registry request try #1 at 2:31:54 PM
+952 http fetch GET https://registry.npmjs.org/graphql/-/graphql-0.6.2.tgz
+953 http fetch 200 https://registry.npmjs.org/graphql/-/graphql-0.6.2.tgz
+954 silly fetchAndShaCheck shasum 19cdcb17e5862d64396a0684f92f7be64e90e7af
+955 verbose addTmpTarball C:\Users\HENRAS~1\AppData\Local\Temp\npm-5792-d559ec71\registry.npmjs.org\graphql\-\graphql-0.6.2.tgz not in flight; adding
+956 verbose addTmpTarball already have metadata; skipping unpack for graphql@0.6.2
+957 verbose correctMkdir C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+958 silly cache afterAdd graphql@0.6.2
+959 verbose afterAdd C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\graphql\0.6.2\package\package.json not in flight; writing
+960 verbose correctMkdir C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+961 verbose afterAdd C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\graphql\0.6.2\package\package.json written
+962 silly install resolved [ { name: 'graphql',
+962 silly install resolved     version: '0.6.2',
+962 silly install resolved     description: 'A Query Language and Runtime which can target any service.',
+962 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+962 silly install resolved     license: 'BSD-3-Clause',
+962 silly install resolved     main: 'index.js',
+962 silly install resolved     homepage: 'https://github.com/graphql/graphql-js',
+962 silly install resolved     bugs: { url: 'https://github.com/graphql/graphql-js/issues' },
+962 silly install resolved     repository:
+962 silly install resolved      { type: 'git',
+962 silly install resolved        url: 'git+ssh://git@github.com/graphql/graphql-js.git' },
+962 silly install resolved     options: { mocha: '--require ./resources/mocha-bootload --check-leaks --full-trace src/**/__tests__/**/*-test.js' },
+962 silly install resolved     scripts:
+962 silly install resolved      { test: 'npm run lint && npm run check && npm run testonly',
+962 silly install resolved        testonly: 'babel-node ./node_modules/.bin/_mocha $npm_package_options_mocha',
+962 silly install resolved        t: 'babel-node ./node_modules/.bin/_mocha --require ./resources/mocha-bootload',
+962 silly install resolved        lint: 'eslint src',
+962 silly install resolved        check: 'flow check',
+962 silly install resolved        'check-cover': 'for file in {src/*.js,src/**/*.js}; do echo $file; flow coverage $file; done',
+962 silly install resolved        build: 'babel src --ignore __tests__ --out-dir dist/ && cp package.json dist/',
+962 silly install resolved        watch: 'babel-node ./resources/watch.js',
+962 silly install resolved        cover: 'babel-node ./node_modules/.bin/isparta cover --root src --report html _mocha -- $npm_package_options_mocha',
+962 silly install resolved        'cover:lcov': 'babel-node ./node_modules/.bin/isparta cover --root src --report lcovonly _mocha -- $npm_package_options_mocha',
+962 silly install resolved        preversion: '. ./resources/checkgit.sh && npm test',
+962 silly install resolved        prepublish: '. ./resources/prepublish.sh' },
+962 silly install resolved     dependencies: { iterall: '1.0.2' },
+962 silly install resolved     devDependencies:
+962 silly install resolved      { 'babel-cli': '6.10.1',
+962 silly install resolved        'babel-eslint': '6.1.0',
+962 silly install resolved        'babel-plugin-check-es2015-constants': '6.8.0',
+962 silly install resolved        'babel-plugin-syntax-async-functions': '6.8.0',
+962 silly install resolved        'babel-plugin-transform-class-properties': '6.10.2',
+962 silly install resolved        'babel-plugin-transform-es2015-arrow-functions': '6.8.0',
+962 silly install resolved        'babel-plugin-transform-es2015-block-scoped-functions': '6.8.0',
+962 silly install resolved        'babel-plugin-transform-es2015-block-scoping': '6.10.1',
+962 silly install resolved        'babel-plugin-transform-es2015-classes': '6.9.0',
+962 silly install resolved        'babel-plugin-transform-es2015-computed-properties': '6.8.0',
+962 silly install resolved        'babel-plugin-transform-es2015-destructuring': '6.9.0',
+962 silly install resolved        'babel-plugin-transform-es2015-duplicate-keys': '6.8.0',
+962 silly install resolved        'babel-plugin-transform-es2015-function-name': '6.9.0',
+962 silly install resolved        'babel-plugin-transform-es2015-literals': '6.8.0',
+962 silly install resolved        'babel-plugin-transform-es2015-modules-commonjs': '6.10.3',
+962 silly install resolved        'babel-plugin-transform-es2015-object-super': '6.8.0',
+962 silly install resolved        'babel-plugin-transform-es2015-parameters': '6.9.0',
+962 silly install resolved        'babel-plugin-transform-es2015-shorthand-properties': '6.8.0',
+962 silly install resolved        'babel-plugin-transform-es2015-spread': '6.8.0',
+962 silly install resolved        'babel-plugin-transform-es2015-template-literals': '6.8.0',
+962 silly install resolved        'babel-plugin-transform-flow-strip-types': '6.8.0',
+962 silly install resolved        'babel-plugin-transform-object-rest-spread': '6.8.0',
+962 silly install resolved        'babel-plugin-transform-regenerator': '6.9.0',
+962 silly install resolved        chai: '3.5.0',
+962 silly install resolved        'chai-json-equal': '0.0.1',
+962 silly install resolved        'chai-subset': '1.2.2',
+962 silly install resolved        coveralls: '2.11.9',
+962 silly install resolved        eslint: '3.1.1',
+962 silly install resolved        'eslint-plugin-babel': '3.3.0',
+962 silly install resolved        'eslint-plugin-flow-vars': '0.4.0',
+962 silly install resolved        'eslint-plugin-flowtype': '2.3.1',
+962 silly install resolved        'flow-bin': '0.29.0',
+962 silly install resolved        isparta: '4.0.0',
+962 silly install resolved        mocha: '2.5.3',
+962 silly install resolved        sane: '1.3.4' },
+962 silly install resolved     gitHead: '2aa060007dda62be2cd5b480ada3b9270cee0454',
+962 silly install resolved     _id: 'graphql@0.6.2',
+962 silly install resolved     _shasum: '19cdcb17e5862d64396a0684f92f7be64e90e7af',
+962 silly install resolved     _from: 'graphql@>=0.6.0 <0.7.0',
+962 silly install resolved     _npmVersion: '3.10.3',
+962 silly install resolved     _nodeVersion: '6.3.0',
+962 silly install resolved     _npmUser: { name: 'leebyron', email: 'lee@leebyron.com' },
+962 silly install resolved     dist:
+962 silly install resolved      { shasum: '19cdcb17e5862d64396a0684f92f7be64e90e7af',
+962 silly install resolved        tarball: 'https://registry.npmjs.org/graphql/-/graphql-0.6.2.tgz' },
+962 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+962 silly install resolved     _npmOperationalInternal:
+962 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+962 silly install resolved        tmp: 'tmp/graphql-0.6.2.tgz_1469135170549_0.9132720122579485' },
+962 silly install resolved     directories: {},
+962 silly install resolved     _resolved: 'https://registry.npmjs.org/graphql/-/graphql-0.6.2.tgz' } ]
+963 info install graphql@0.6.2 into E:\Project\heroku\scriptsweat-graph\node_modules\graphiql
+964 info installOne graphql@0.6.2
+965 verbose installOne of graphql to E:\Project\heroku\scriptsweat-graph\node_modules\graphiql not in flight; installing
+966 verbose correctMkdir C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+967 verbose lock using C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\_locks\graphql-7ad293499ebd0a48.lock for E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\graphql
+968 silly install write writing graphql 0.6.2 to E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\graphql
+969 verbose unbuild node_modules\graphiql\node_modules\graphql
+970 silly gentlyRm E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\graphql is being purged from base E:\Project\heroku\scriptsweat-graph
+971 verbose gentlyRm don't care about contents; nuking E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\graphql
+972 verbose tar unpack C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\graphql\0.6.2\package.tgz
+973 verbose tar unpacking to E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\graphql
+974 silly gentlyRm E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\graphql is being purged
+975 verbose gentlyRm don't care about contents; nuking E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\graphql
+976 silly gunzTarPerm modes [ '777', '666' ]
+977 silly gunzTarPerm extractEntry package.json
+978 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+979 silly gunzTarPerm extractEntry README.md
+980 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+981 silly gunzTarPerm extractEntry LICENSE
+982 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
+983 silly gunzTarPerm extractEntry graphql.js
+984 silly gunzTarPerm modified mode [ 'graphql.js', 436, 438 ]
+985 silly gunzTarPerm extractEntry index.js
+986 silly gunzTarPerm modified mode [ 'index.js', 436, 438 ]
+987 silly gunzTarPerm extractEntry error/GraphQLError.js
+988 silly gunzTarPerm modified mode [ 'error/GraphQLError.js', 436, 438 ]
+989 silly gunzTarPerm extractEntry error/formatError.js
+990 silly gunzTarPerm modified mode [ 'error/formatError.js', 436, 438 ]
+991 silly gunzTarPerm extractEntry error/index.js
+992 silly gunzTarPerm modified mode [ 'error/index.js', 436, 438 ]
+993 silly gunzTarPerm extractEntry error/locatedError.js
+994 silly gunzTarPerm modified mode [ 'error/locatedError.js', 436, 438 ]
+995 silly gunzTarPerm extractEntry error/syntaxError.js
+996 silly gunzTarPerm modified mode [ 'error/syntaxError.js', 436, 438 ]
+997 silly gunzTarPerm extractEntry PATENTS
+998 silly gunzTarPerm modified mode [ 'PATENTS', 436, 438 ]
+999 silly gunzTarPerm extractEntry execution/execute.js
+1000 silly gunzTarPerm modified mode [ 'execution/execute.js', 436, 438 ]
+1001 silly gunzTarPerm extractEntry execution/index.js
+1002 silly gunzTarPerm modified mode [ 'execution/index.js', 436, 438 ]
+1003 silly gunzTarPerm extractEntry execution/values.js
+1004 silly gunzTarPerm modified mode [ 'execution/values.js', 436, 438 ]
+1005 silly gunzTarPerm extractEntry jsutils/find.js
+1006 silly gunzTarPerm modified mode [ 'jsutils/find.js', 436, 438 ]
+1007 silly gunzTarPerm extractEntry jsutils/invariant.js
+1008 silly gunzTarPerm modified mode [ 'jsutils/invariant.js', 436, 438 ]
+1009 silly gunzTarPerm extractEntry jsutils/isNullish.js
+1010 silly gunzTarPerm modified mode [ 'jsutils/isNullish.js', 436, 438 ]
+1011 silly gunzTarPerm extractEntry jsutils/keyMap.js
+1012 silly gunzTarPerm modified mode [ 'jsutils/keyMap.js', 436, 438 ]
+1013 silly gunzTarPerm extractEntry jsutils/keyValMap.js
+1014 silly gunzTarPerm modified mode [ 'jsutils/keyValMap.js', 436, 438 ]
+1015 silly gunzTarPerm extractEntry jsutils/quotedOrList.js
+1016 silly gunzTarPerm modified mode [ 'jsutils/quotedOrList.js', 436, 438 ]
+1017 silly gunzTarPerm extractEntry jsutils/suggestionList.js
+1018 silly gunzTarPerm modified mode [ 'jsutils/suggestionList.js', 436, 438 ]
+1019 silly gunzTarPerm extractEntry language/ast.js
+1020 silly gunzTarPerm modified mode [ 'language/ast.js', 436, 438 ]
+1021 silly gunzTarPerm extractEntry language/index.js
+1022 silly gunzTarPerm modified mode [ 'language/index.js', 436, 438 ]
+1023 silly gunzTarPerm extractEntry language/kinds.js
+1024 silly gunzTarPerm modified mode [ 'language/kinds.js', 436, 438 ]
+1025 silly gunzTarPerm extractEntry language/lexer.js
+1026 silly gunzTarPerm modified mode [ 'language/lexer.js', 436, 438 ]
+1027 silly gunzTarPerm extractEntry language/location.js
+1028 silly gunzTarPerm modified mode [ 'language/location.js', 436, 438 ]
+1029 silly gunzTarPerm extractEntry language/parser.js
+1030 silly gunzTarPerm modified mode [ 'language/parser.js', 436, 438 ]
+1031 silly gunzTarPerm extractEntry language/printer.js
+1032 silly gunzTarPerm modified mode [ 'language/printer.js', 436, 438 ]
+1033 silly gunzTarPerm extractEntry language/source.js
+1034 silly gunzTarPerm modified mode [ 'language/source.js', 436, 438 ]
+1035 silly gunzTarPerm extractEntry language/visitor.js
+1036 silly gunzTarPerm modified mode [ 'language/visitor.js', 436, 438 ]
+1037 silly gunzTarPerm extractEntry utilities/TypeInfo.js
+1038 silly gunzTarPerm modified mode [ 'utilities/TypeInfo.js', 436, 438 ]
+1039 silly gunzTarPerm extractEntry utilities/buildClientSchema.js
+1040 silly gunzTarPerm modified mode [ 'utilities/buildClientSchema.js', 436, 438 ]
+1041 silly gunzTarPerm extractEntry utilities/concatAST.js
+1042 silly gunzTarPerm modified mode [ 'utilities/concatAST.js', 436, 438 ]
+1043 silly gunzTarPerm extractEntry utilities/extendSchema.js
+1044 silly gunzTarPerm modified mode [ 'utilities/extendSchema.js', 436, 438 ]
+1045 silly gunzTarPerm extractEntry utilities/getOperationAST.js
+1046 silly gunzTarPerm modified mode [ 'utilities/getOperationAST.js', 436, 438 ]
+1047 silly gunzTarPerm extractEntry utilities/buildASTSchema.js
+1048 silly gunzTarPerm modified mode [ 'utilities/buildASTSchema.js', 436, 438 ]
+1049 silly gunzTarPerm extractEntry utilities/introspectionQuery.js
+1050 silly gunzTarPerm modified mode [ 'utilities/introspectionQuery.js', 436, 438 ]
+1051 silly gunzTarPerm extractEntry utilities/isValidJSValue.js
+1052 silly gunzTarPerm modified mode [ 'utilities/isValidJSValue.js', 436, 438 ]
+1053 silly gunzTarPerm extractEntry utilities/isValidLiteralValue.js
+1054 silly gunzTarPerm modified mode [ 'utilities/isValidLiteralValue.js', 436, 438 ]
+1055 silly gunzTarPerm extractEntry utilities/schemaPrinter.js
+1056 silly gunzTarPerm modified mode [ 'utilities/schemaPrinter.js', 436, 438 ]
+1057 silly gunzTarPerm extractEntry utilities/typeComparators.js
+1058 silly gunzTarPerm modified mode [ 'utilities/typeComparators.js', 436, 438 ]
+1059 silly gunzTarPerm extractEntry utilities/astFromValue.js
+1060 silly gunzTarPerm modified mode [ 'utilities/astFromValue.js', 436, 438 ]
+1061 silly gunzTarPerm extractEntry utilities/typeFromAST.js
+1062 silly gunzTarPerm modified mode [ 'utilities/typeFromAST.js', 436, 438 ]
+1063 silly gunzTarPerm extractEntry utilities/assertValidName.js
+1064 silly gunzTarPerm modified mode [ 'utilities/assertValidName.js', 436, 438 ]
+1065 silly gunzTarPerm extractEntry utilities/valueFromAST.js
+1066 silly gunzTarPerm modified mode [ 'utilities/valueFromAST.js', 436, 438 ]
+1067 silly gunzTarPerm extractEntry utilities/index.js
+1068 silly gunzTarPerm modified mode [ 'utilities/index.js', 436, 438 ]
+1069 silly gunzTarPerm extractEntry type/definition.js
+1070 silly gunzTarPerm modified mode [ 'type/definition.js', 436, 438 ]
+1071 silly gunzTarPerm extractEntry type/directives.js
+1072 silly gunzTarPerm modified mode [ 'type/directives.js', 436, 438 ]
+1073 silly gunzTarPerm extractEntry type/index.js
+1074 silly gunzTarPerm modified mode [ 'type/index.js', 436, 438 ]
+1075 silly gunzTarPerm extractEntry type/introspection.js
+1076 silly gunzTarPerm modified mode [ 'type/introspection.js', 436, 438 ]
+1077 silly gunzTarPerm extractEntry type/scalars.js
+1078 silly gunzTarPerm modified mode [ 'type/scalars.js', 436, 438 ]
+1079 silly gunzTarPerm extractEntry type/schema.js
+1080 silly gunzTarPerm modified mode [ 'type/schema.js', 436, 438 ]
+1081 silly gunzTarPerm extractEntry validation/index.js
+1082 silly gunzTarPerm modified mode [ 'validation/index.js', 436, 438 ]
+1083 silly gunzTarPerm extractEntry validation/specifiedRules.js
+1084 silly gunzTarPerm modified mode [ 'validation/specifiedRules.js', 436, 438 ]
+1085 silly gunzTarPerm extractEntry validation/validate.js
+1086 silly gunzTarPerm modified mode [ 'validation/validate.js', 436, 438 ]
+1087 silly gunzTarPerm extractEntry validation/rules/ArgumentsOfCorrectType.js
+1088 silly gunzTarPerm modified mode [ 'validation/rules/ArgumentsOfCorrectType.js', 436, 438 ]
+1089 silly gunzTarPerm extractEntry validation/rules/LoneAnonymousOperation.js
+1090 silly gunzTarPerm modified mode [ 'validation/rules/LoneAnonymousOperation.js', 436, 438 ]
+1091 silly gunzTarPerm extractEntry validation/rules/NoFragmentCycles.js
+1092 silly gunzTarPerm modified mode [ 'validation/rules/NoFragmentCycles.js', 436, 438 ]
+1093 silly gunzTarPerm extractEntry validation/rules/NoUndefinedVariables.js
+1094 silly gunzTarPerm modified mode [ 'validation/rules/NoUndefinedVariables.js', 436, 438 ]
+1095 silly gunzTarPerm extractEntry validation/rules/NoUnusedFragments.js
+1096 silly gunzTarPerm modified mode [ 'validation/rules/NoUnusedFragments.js', 436, 438 ]
+1097 silly gunzTarPerm extractEntry validation/rules/KnownTypeNames.js
+1098 silly gunzTarPerm modified mode [ 'validation/rules/KnownTypeNames.js', 436, 438 ]
+1099 silly gunzTarPerm extractEntry validation/rules/OverlappingFieldsCanBeMerged.js
+1100 silly gunzTarPerm modified mode [ 'validation/rules/OverlappingFieldsCanBeMerged.js', 436, 438 ]
+1101 silly gunzTarPerm extractEntry validation/rules/PossibleFragmentSpreads.js
+1102 silly gunzTarPerm modified mode [ 'validation/rules/PossibleFragmentSpreads.js', 436, 438 ]
+1103 verbose write writing to E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\codemirror\package.json
+1104 silly gunzTarPerm extractEntry validation/rules/ProvidedNonNullArguments.js
+1105 silly gunzTarPerm modified mode [ 'validation/rules/ProvidedNonNullArguments.js', 436, 438 ]
+1106 silly gunzTarPerm extractEntry validation/rules/ScalarLeafs.js
+1107 silly gunzTarPerm modified mode [ 'validation/rules/ScalarLeafs.js', 436, 438 ]
+1108 info preinstall codemirror@5.17.0
+1109 verbose readDependencies loading dependencies from E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\codemirror\package.json
+1110 verbose readDependencies loading dependencies from E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\codemirror\package.json
+1111 silly install resolved []
+1112 verbose about to build E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\codemirror
+1113 info build E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\codemirror
+1114 silly gunzTarPerm extractEntry validation/rules/UniqueArgumentNames.js
+1115 silly gunzTarPerm modified mode [ 'validation/rules/UniqueArgumentNames.js', 436, 438 ]
+1116 silly gunzTarPerm extractEntry validation/rules/KnownFragmentNames.js
+1117 silly gunzTarPerm modified mode [ 'validation/rules/KnownFragmentNames.js', 436, 438 ]
+1118 info linkStuff codemirror@5.17.0
+1119 silly linkStuff codemirror@5.17.0 has E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules as its parent node_modules
+1120 verbose linkBins codemirror@5.17.0
+1121 verbose linkMans codemirror@5.17.0
+1122 verbose rebuildBundles codemirror@5.17.0
+1123 info install codemirror@5.17.0
+1124 info postinstall codemirror@5.17.0
+1125 verbose unlock done using C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\_locks\codemirror-71be0d3b16a1b963.lock for E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\codemirror
+1126 silly gunzTarPerm extractEntry validation/rules/UniqueFragmentNames.js
+1127 silly gunzTarPerm modified mode [ 'validation/rules/UniqueFragmentNames.js', 436, 438 ]
+1128 silly gunzTarPerm extractEntry validation/rules/KnownDirectives.js
+1129 silly gunzTarPerm modified mode [ 'validation/rules/KnownDirectives.js', 436, 438 ]
+1130 silly gunzTarPerm extractEntry validation/rules/UniqueInputFieldNames.js
+1131 silly gunzTarPerm modified mode [ 'validation/rules/UniqueInputFieldNames.js', 436, 438 ]
+1132 silly gunzTarPerm extractEntry validation/rules/KnownArgumentNames.js
+1133 silly gunzTarPerm modified mode [ 'validation/rules/KnownArgumentNames.js', 436, 438 ]
+1134 silly gunzTarPerm extractEntry validation/rules/UniqueOperationNames.js
+1135 silly gunzTarPerm modified mode [ 'validation/rules/UniqueOperationNames.js', 436, 438 ]
+1136 silly gunzTarPerm extractEntry validation/rules/FragmentsOnCompositeTypes.js
+1137 silly gunzTarPerm modified mode [ 'validation/rules/FragmentsOnCompositeTypes.js', 436, 438 ]
+1138 silly gunzTarPerm extractEntry validation/rules/UniqueVariableNames.js
+1139 silly gunzTarPerm modified mode [ 'validation/rules/UniqueVariableNames.js', 436, 438 ]
+1140 silly gunzTarPerm extractEntry validation/rules/FieldsOnCorrectType.js
+1141 silly gunzTarPerm modified mode [ 'validation/rules/FieldsOnCorrectType.js', 436, 438 ]
+1142 silly gunzTarPerm extractEntry validation/rules/VariablesAreInputTypes.js
+1143 silly gunzTarPerm modified mode [ 'validation/rules/VariablesAreInputTypes.js', 436, 438 ]
+1144 silly gunzTarPerm extractEntry validation/rules/DefaultValuesOfCorrectType.js
+1145 silly gunzTarPerm modified mode [ 'validation/rules/DefaultValuesOfCorrectType.js', 436, 438 ]
+1146 silly gunzTarPerm extractEntry validation/rules/VariablesInAllowedPosition.js
+1147 silly gunzTarPerm modified mode [ 'validation/rules/VariablesInAllowedPosition.js', 436, 438 ]
+1148 silly gunzTarPerm extractEntry validation/rules/NoUnusedVariables.js
+1149 silly gunzTarPerm modified mode [ 'validation/rules/NoUnusedVariables.js', 436, 438 ]
+1150 verbose write writing to E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\graphql\package.json
+1151 info preinstall graphql@0.6.2
+1152 verbose readDependencies loading dependencies from E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\graphql\package.json
+1153 silly prepareForInstallMany adding iterall@1.0.2 from graphql dependencies
+1154 verbose readDependencies loading dependencies from E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\graphql\package.json
+1155 silly cache add args [ 'iterall@1.0.2', null ]
+1156 verbose cache add spec iterall@1.0.2
+1157 silly cache add parsed spec Result {
+1157 silly cache add   raw: 'iterall@1.0.2',
+1157 silly cache add   scope: null,
+1157 silly cache add   name: 'iterall',
+1157 silly cache add   rawSpec: '1.0.2',
+1157 silly cache add   spec: '1.0.2',
+1157 silly cache add   type: 'version' }
+1158 silly addNamed iterall@1.0.2
+1159 verbose addNamed "1.0.2" is a plain semver version for iterall
+1160 silly mapToRegistry name iterall
+1161 silly mapToRegistry using default registry
+1162 silly mapToRegistry registry https://registry.npmjs.org/
+1163 silly mapToRegistry uri https://registry.npmjs.org/iterall
+1164 verbose addNameVersion registry:https://registry.npmjs.org/iterall not in flight; fetching
+1165 verbose request uri https://registry.npmjs.org/iterall
+1166 verbose request no auth needed
+1167 info attempt registry request try #1 at 2:31:55 PM
+1168 http request GET https://registry.npmjs.org/iterall
+1169 http 200 https://registry.npmjs.org/iterall
+1170 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1170 verbose headers   etag: '"GOF3ORMTAWHSIG2DTP7OQ0YX"',
+1170 verbose headers   'content-type': 'application/json',
+1170 verbose headers   'content-encoding': 'gzip',
+1170 verbose headers   'cache-control': 'max-age=300',
+1170 verbose headers   'content-length': '8558',
+1170 verbose headers   'accept-ranges': 'bytes',
+1170 verbose headers   date: 'Fri, 22 Jul 2016 07:31:48 GMT',
+1170 verbose headers   via: '1.1 varnish',
+1170 verbose headers   age: '0',
+1170 verbose headers   connection: 'keep-alive',
+1170 verbose headers   'x-served-by': 'cache-sin6920-SIN',
+1170 verbose headers   'x-cache': 'MISS',
+1170 verbose headers   'x-cache-hits': '0',
+1170 verbose headers   'x-timer': 'S1469172707.943624,VS0,VE249',
+1170 verbose headers   vary: 'Accept-Encoding' }
+1171 silly get cb [ 200,
+1171 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1171 silly get     etag: '"GOF3ORMTAWHSIG2DTP7OQ0YX"',
+1171 silly get     'content-type': 'application/json',
+1171 silly get     'content-encoding': 'gzip',
+1171 silly get     'cache-control': 'max-age=300',
+1171 silly get     'content-length': '8558',
+1171 silly get     'accept-ranges': 'bytes',
+1171 silly get     date: 'Fri, 22 Jul 2016 07:31:48 GMT',
+1171 silly get     via: '1.1 varnish',
+1171 silly get     age: '0',
+1171 silly get     connection: 'keep-alive',
+1171 silly get     'x-served-by': 'cache-sin6920-SIN',
+1171 silly get     'x-cache': 'MISS',
+1171 silly get     'x-cache-hits': '0',
+1171 silly get     'x-timer': 'S1469172707.943624,VS0,VE249',
+1171 silly get     vary: 'Accept-Encoding' } ]
+1172 verbose get saving iterall to C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\registry.npmjs.org\iterall\.cache.json
+1173 verbose correctMkdir C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1174 silly mapToRegistry name iterall
+1175 silly mapToRegistry using default registry
+1176 silly mapToRegistry registry https://registry.npmjs.org/
+1177 silly mapToRegistry uri https://registry.npmjs.org/iterall
+1178 verbose addRemoteTarball https://registry.npmjs.org/iterall/-/iterall-1.0.2.tgz not in flight; adding
+1179 verbose addRemoteTarball [ 'https://registry.npmjs.org/iterall/-/iterall-1.0.2.tgz',
+1179 verbose addRemoteTarball   '41a2e96ce9eda5e61c767ee5dc312373bb046e91' ]
+1180 info retry fetch attempt 1 at 2:31:55 PM
+1181 info attempt registry request try #1 at 2:31:55 PM
+1182 http fetch GET https://registry.npmjs.org/iterall/-/iterall-1.0.2.tgz
+1183 http fetch 200 https://registry.npmjs.org/iterall/-/iterall-1.0.2.tgz
+1184 silly fetchAndShaCheck shasum 41a2e96ce9eda5e61c767ee5dc312373bb046e91
+1185 verbose addTmpTarball C:\Users\HENRAS~1\AppData\Local\Temp\npm-5792-d559ec71\registry.npmjs.org\iterall\-\iterall-1.0.2.tgz not in flight; adding
+1186 verbose addTmpTarball already have metadata; skipping unpack for iterall@1.0.2
+1187 verbose correctMkdir C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1188 silly cache afterAdd iterall@1.0.2
+1189 verbose afterAdd C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\iterall\1.0.2\package\package.json not in flight; writing
+1190 verbose correctMkdir C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+1191 verbose afterAdd C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\iterall\1.0.2\package\package.json written
+1192 silly install resolved [ { name: 'iterall',
+1192 silly install resolved     version: '1.0.2',
+1192 silly install resolved     description: 'Minimal zero-dependency utilities for using JavaScript Iterables in all environments.',
+1192 silly install resolved     main: 'index.js',
+1192 silly install resolved     scripts:
+1192 silly install resolved      { test: 'npm run lint && npm run testonly && npm run testdocs',
+1192 silly install resolved        lint: 'standard --verbose index.js test.js',
+1192 silly install resolved        testonly: 'nyc --check-coverage --statements 100 node test.js',
+1192 silly install resolved        testdocs: 'if [ "$(documentation readme -dgs API | grep -vF \'up to date\')" ]; then echo \'Must run: npm run docs\'; exit 1; fi;',
+1192 silly install resolved        docs: 'documentation readme -gs API',
+1192 silly install resolved        travis: 'npm run test && nyc report --reporter=text-lcov | coveralls' },
+1192 silly install resolved     repository:
+1192 silly install resolved      { type: 'git',
+1192 silly install resolved        url: 'git+ssh://git@github.com/leebyron/iterall.git' },
+1192 silly install resolved     files: [ 'index.js', 'index.js.flow', 'index.d.ts', 'LICENSE' ],
+1192 silly install resolved     keywords: [ 'es6', 'iterator', 'iterable', 'polyfill', 'for-of' ],
+1192 silly install resolved     author:
+1192 silly install resolved      { name: 'Lee Byron',
+1192 silly install resolved        email: 'lee@leebyron.com',
+1192 silly install resolved        url: 'http://leebyron.com/' },
+1192 silly install resolved     license: 'MIT',
+1192 silly install resolved     bugs: { url: 'https://github.com/leebyron/iterall/issues' },
+1192 silly install resolved     homepage: 'https://github.com/leebyron/iterall#readme',
+1192 silly install resolved     devDependencies:
+1192 silly install resolved      { coveralls: '2.11.9',
+1192 silly install resolved        documentation: '4.0.0-beta5',
+1192 silly install resolved        nyc: '6.6.1',
+1192 silly install resolved        standard: '7.1.2' },
+1192 silly install resolved     gitHead: '8b55d27b3f386751ef3d7a84aa9ec38b1a30a3c8',
+1192 silly install resolved     _id: 'iterall@1.0.2',
+1192 silly install resolved     _shasum: '41a2e96ce9eda5e61c767ee5dc312373bb046e91',
+1192 silly install resolved     _from: 'iterall@1.0.2',
+1192 silly install resolved     _npmVersion: '3.8.9',
+1192 silly install resolved     _nodeVersion: '6.2.0',
+1192 silly install resolved     _npmUser: { name: 'leebyron', email: 'lee@leebyron.com' },
+1192 silly install resolved     dist:
+1192 silly install resolved      { shasum: '41a2e96ce9eda5e61c767ee5dc312373bb046e91',
+1192 silly install resolved        tarball: 'https://registry.npmjs.org/iterall/-/iterall-1.0.2.tgz' },
+1192 silly install resolved     maintainers: [ [Object] ],
+1192 silly install resolved     _npmOperationalInternal:
+1192 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+1192 silly install resolved        tmp: 'tmp/iterall-1.0.2.tgz_1467240891724_0.4510333016514778' },
+1192 silly install resolved     directories: {},
+1192 silly install resolved     _resolved: 'https://registry.npmjs.org/iterall/-/iterall-1.0.2.tgz' } ]
+1193 info install iterall@1.0.2 into E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\graphql
+1194 info installOne iterall@1.0.2
+1195 verbose installOne of iterall to E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\graphql not in flight; installing
+1196 verbose correctMkdir C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+1197 verbose lock using C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\_locks\iterall-303addf38d94bdc6.lock for E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\graphql\node_modules\iterall
+1198 silly install write writing iterall 1.0.2 to E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\graphql\node_modules\iterall
+1199 verbose unbuild node_modules\graphiql\node_modules\graphql\node_modules\iterall
+1200 silly gentlyRm E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\graphql\node_modules\iterall is being purged from base E:\Project\heroku\scriptsweat-graph
+1201 verbose gentlyRm don't care about contents; nuking E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\graphql\node_modules\iterall
+1202 verbose tar unpack C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\iterall\1.0.2\package.tgz
+1203 verbose tar unpacking to E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\graphql\node_modules\iterall
+1204 silly gentlyRm E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\graphql\node_modules\iterall is being purged
+1205 verbose gentlyRm don't care about contents; nuking E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\graphql\node_modules\iterall
+1206 silly gunzTarPerm modes [ '777', '666' ]
+1207 silly gunzTarPerm extractEntry package.json
+1208 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+1209 silly gunzTarPerm extractEntry LICENSE
+1210 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+1211 silly gunzTarPerm extractEntry index.js
+1212 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+1213 silly gunzTarPerm extractEntry index.d.ts
+1214 silly gunzTarPerm modified mode [ 'index.d.ts', 420, 438 ]
+1215 silly gunzTarPerm extractEntry index.js.flow
+1216 silly gunzTarPerm modified mode [ 'index.js.flow', 420, 438 ]
+1217 verbose write writing to E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\graphql\node_modules\iterall\package.json
+1218 info preinstall iterall@1.0.2
+1219 verbose readDependencies loading dependencies from E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\graphql\node_modules\iterall\package.json
+1220 verbose readDependencies loading dependencies from E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\graphql\node_modules\iterall\package.json
+1221 silly install resolved []
+1222 verbose about to build E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\graphql\node_modules\iterall
+1223 info build E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\graphql\node_modules\iterall
+1224 info linkStuff iterall@1.0.2
+1225 silly linkStuff iterall@1.0.2 has E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\graphql\node_modules as its parent node_modules
+1226 verbose linkBins iterall@1.0.2
+1227 verbose linkMans iterall@1.0.2
+1228 verbose rebuildBundles iterall@1.0.2
+1229 info install iterall@1.0.2
+1230 info postinstall iterall@1.0.2
+1231 verbose unlock done using C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\_locks\iterall-303addf38d94bdc6.lock for E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\graphql\node_modules\iterall
+1232 verbose about to build E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\graphql
+1233 info build E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\graphql
+1234 info linkStuff graphql@0.6.2
+1235 silly linkStuff graphql@0.6.2 has E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules as its parent node_modules
+1236 verbose linkBins graphql@0.6.2
+1237 verbose linkMans graphql@0.6.2
+1238 verbose rebuildBundles graphql@0.6.2
+1239 verbose rebuildBundles [ 'iterall' ]
+1240 info install graphql@0.6.2
+1241 info postinstall graphql@0.6.2
+1242 verbose unlock done using C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\_locks\graphql-7ad293499ebd0a48.lock for E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\graphql
+1243 verbose unlock done using C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\_locks\codemirror-graphql-a6a3a363ace82218.lock for E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\node_modules\codemirror-graphql
+1244 verbose about to build E:\Project\heroku\scriptsweat-graph\node_modules\graphiql
+1245 info build E:\Project\heroku\scriptsweat-graph\node_modules\graphiql
+1246 info linkStuff graphiql@0.7.3
+1247 silly linkStuff graphiql@0.7.3 has E:\Project\heroku\scriptsweat-graph\node_modules as its parent node_modules
+1248 verbose linkBins graphiql@0.7.3
+1249 verbose linkMans graphiql@0.7.3
+1250 verbose rebuildBundles graphiql@0.7.3
+1251 verbose rebuildBundles [ '.bin', 'codemirror', 'codemirror-graphql', 'graphql', 'marked' ]
+1252 info install graphiql@0.7.3
+1253 info postinstall graphiql@0.7.3
+1254 verbose readDependencies loading dependencies from E:\Project\heroku\scriptsweat-graph\package.json
+1255 verbose targetResolver reading package data from E:\Project\heroku\scriptsweat-graph\node_modules\async\package.json
+1256 verbose targetResolver reading package data from E:\Project\heroku\scriptsweat-graph\node_modules\express\package.json
+1257 verbose targetResolver reading package data from E:\Project\heroku\scriptsweat-graph\node_modules\express-graphql\package.json
+1258 verbose targetResolver reading package data from E:\Project\heroku\scriptsweat-graph\node_modules\graphiql\package.json
+1259 verbose targetResolver reading package data from E:\Project\heroku\scriptsweat-graph\node_modules\graphql\package.json
+1260 verbose targetResolver reading package data from E:\Project\heroku\scriptsweat-graph\node_modules\lodash\package.json
+1261 verbose targetResolver reading package data from E:\Project\heroku\scriptsweat-graph\node_modules\mongoose\package.json
+1262 verbose targetResolver reading package data from E:\Project\heroku\scriptsweat-graph\node_modules\react\package.json
+1263 verbose targetResolver reading package data from E:\Project\heroku\scriptsweat-graph\node_modules\react-dom\package.json
+1264 verbose targetResolver reading package data from E:\Project\heroku\scriptsweat-graph\node_modules\request\package.json
+1265 verbose already installed skipping graphql@^0.6.0 E:\Project\heroku\scriptsweat-graph
+1266 silly install resolved []
+1267 verbose unlock done using C:\Users\Henra Setia Nugraha\AppData\Roaming\npm-cache\_locks\graphiql-3fa7e4c66073ad48.lock for E:\Project\heroku\scriptsweat-graph\node_modules\graphiql
+1268 verbose validateInstall loading E:\Project\heroku\scriptsweat-graph\package.json for validation
+1269 verbose stack Error: The package graphql@0.5.0 does not satisfy its siblings' peerDependencies requirements!
+1269 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:125:32
+1269 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:268:7
+1269 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:142:5
+1269 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+1269 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+1269 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+1269 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+1269 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+1269 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+1269 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+1270 verbose cwd E:\Project\heroku\scriptsweat-graph
+1271 error Windows_NT 10.0.10586
+1272 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "graphiql"
+1273 error node v4.4.0
+1274 error npm  v2.14.20
+1275 error code EPEERINVALID
+1276 error peerinvalid The package graphql@0.5.0 does not satisfy its siblings' peerDependencies requirements!
+1276 error peerinvalid Peer express-graphql@0.5.3 wants graphql@^0.5.0-b || ^0.6.0
+1276 error peerinvalid Peer graphiql@0.7.3 wants graphql@^0.6.0
+1277 verbose exit [ 1, true ]
