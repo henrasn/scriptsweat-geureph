@@ -24,6 +24,9 @@ var produkQuery = new graphql.GraphQLObjectType({
   }
 })
 
-module.exports = new graphql.GraphQLSchema({
-  query: produkQuery
-})
+module.exports = {
+  type: new graphql.GraphQLList(produkType),
+  resolve: () => {
+    return Model.find();
+  }
+}

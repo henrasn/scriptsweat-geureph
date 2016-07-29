@@ -1,48 +1,46 @@
 var graphql = require('graphql');
-var Model = require('../../models/ratingModel').main;
-var async = require('async');
+var Model = require('../../models/keranjangModel').main;
 
-var rateObject = new graphql.GraphQLObjectType({
-  name: 'rateObject',
+var objectKeranjang = new graphql.GraphQLObjectType({
+  name: 'keranjangObject',
   fields: () => {
     return {
-      comment: {
+      idProduk: {
         type: graphql.GraphQLString
       },
-      rate: {
+      jumlah: {
         type: graphql.GraphQLInt
       },
-      user: {
+      tanggal: {
         type: graphql.GraphQLString
       }
     }
   }
 })
 
-var index = 0;
 module.exports = new graphql.GraphQLObjectType({
-  name: 'ratingType',
+  name: 'keranjangType',
   fields: () => {
     return {
-      idProduk: {
-        type: graphql.GraphQLString
+      idUser: {
+        type: graphql.GraphQLString,
       },
-      ratings: {
-        type: new graphql.GraphQLList(rateObject),
+      produks: {
+        type: new graphql.GraphQLList(objectKeranjang),
         resolve(root) {
           return new Promise((resolve, rejected) => {
             Model.find({
-              'idProduk': root.idProduk
+              'idUser': root.idUser
             }, {
               '_id': 0,
               '__v': 0
             }, (err, data) => {
               var newData = JSON.parse(JSON.stringify(data));
-              resolve(newData[0].ratings);
+              resolve(newData[0].produks)
             })
           })
         }
       }
     }
   }
-});
+})

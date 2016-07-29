@@ -2,7 +2,7 @@ var express = require('express');
 var graphHTTP = require('express-graphql');
 var graphql = require('graphql');
 var mongoose = require('mongoose');
-var Schema = require('./graph/query/ratingQuery');
+var Schema = require('./graph');
 // var Model = require('./models/ratingModel').main;
 
 // var query = 'query{showSingleData(id:1234){completed,title}}';
