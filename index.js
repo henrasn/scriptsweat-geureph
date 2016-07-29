@@ -8,6 +8,7 @@ var Schema = require('./graph');
 // var query = 'query{showSingleData(id:1234){completed,title}}';
 // var query = 'mutation mutationRate{add(idProduk:"32423"){}}';
 
+var port = process.env.PORT || 3000;
 mongoose.connect('mongodb://dbrest:restdatabase@ds031965.mlab.com:31965/dbscript');
 // mongoose.connect('mongodb://127.0.0.1:27017/produk');
 // mongoose.connect('mongodb://127.0.0.1:27017/datagraph');
@@ -23,7 +24,7 @@ var app = express()
     pretty: true,
     graphiql: true
   }))
-  .listen(3001, (err) => {
+  .listen(port, (err) => {
     if (err) {
       console.log(err)
     } else {
