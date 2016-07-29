@@ -6,14 +6,15 @@ var Schema = require('./graph');
 // var Model = require('./models/ratingModel').main;
 
 // var query = 'query{showSingleData(id:1234){completed,title}}';
-var query = 'mutation mutationRate{add(idProduk:"32423"){}}';
+// var query = 'mutation mutationRate{add(idProduk:"32423"){}}';
 
-mongoose.connect('mongodb://127.0.0.1:27017/produk');
+mongoose.connect('mongodb://dbrest:restdatabase@ds031965.mlab.com:31965/dbscript');
+// mongoose.connect('mongodb://127.0.0.1:27017/produk');
 // mongoose.connect('mongodb://127.0.0.1:27017/datagraph');
 
-graphql.graphql(Schema, query).then((result) => {
-  console.log(JSON.stringify(result));
-});
+// graphql.graphql(Schema, query).then((result) => {
+//   console.log(JSON.stringify(result));
+// });
 
 
 var app = express()
